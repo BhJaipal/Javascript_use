@@ -1,0 +1,160 @@
+*{box-sizing: border-box;background-color: black}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v128/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+#name{font-weight: bold; font-size: 20px;color: white;}
+span> char{border: 4px solid transparent ;
+  padding-left: 5px;border-image: linear-gradient(to top left,blue,red) 1;
+  padding-right: 5px;border-radius: 1px;border-image-outset: 1px;}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  background: transparent;
+}
+  .list {
+    float: left;
+    position:relative;
+    display:inline-block;}
+  
+  .list > button{
+    width:90px;
+    padding:0px;
+    font-size:23px;
+    color:white;
+    background:black;
+    border:5px solid black;
+    height:70px;
+    border-radius: 10px}
+  
+  .list > ul{
+    color:grey;
+    background:black;
+    padding-left:0;
+    text-align:right;
+    position:absolute;
+    width:0;
+    height:100px;
+    transition:width 0.5s;
+    overflow:auto;}
+  
+  .list:hover > ul{
+    padding-left:0;
+    height:100px;
+    width:90px;
+    text-align:justify;
+  }
+  .list:hover > .btn{border:5px solid RoyalBlue;}
+  li:hover{color:white;}
+body {display: flex;
+  min-height: 100vh;
+flex-direction: column;}
+main {flex: 1 0 auto;}
+
+.cookies{position:fixed;bottom:0px;}
+.cookies>.divs
+{color:#fff;
+margin-bottom:0px;
+width:100%;
+height: 110px;
+padding:0px;
+text-align:center;}
+
+.cookies>.divs>div:first-child{
+    font-size: 150%;}
+
+.cookies>button{color: #fff;
+border-radius:20px;
+background:#111;
+margin-bottom:0px;
+font-size:120%;}
+
+.input-cnt {
+         display: flex;
+      }
+      .input-cnt > i {
+         min-width: 40px;
+         padding: 10px;
+         text-align: center;
+         background: grey;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+      }
+      .input-cnt > input {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 1px solid lightgrey;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 60%;
+         color: white;
+         transition: width .5s;
+      }
+      .input-cnt:hover > input {
+         border: 2px solid #0076ff;
+         width: 100%;
+      }
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+      #python{
+          height: 230px;
+          background: #111;
+          border-radius: 20px;
+          color: white;
+          border: 3px solid #222;
+          background-image: url(background.png);
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+      .Python{background:transparent;
+          overflow: hidden;
+          transition-duration: 2s;
+      }
+      
+      .python > #b1{
+          float: right;
+          width:25px;
+          border: none;
+          background: transparent;
+          overflow: hidden;
+      }
+      .python > i{
+          background: transparent;
+          display:flex;
+          flex: column;
+          font-weight:bold;
+          overflow: hidden;
+      }
+      div>char{padding:5px;
+          background: transparent;
+      }
+      .python{margin-top: 10px;}
+    .python> .Python>pre {background:transparent;}
+
+.python> pre > key{
+    color:orange;
+    background: transparent;
+}
+.python> pre > a{
+    color:yellow;
+    background: transparent;
+}
+.python> pre{
+    background: transparent;
+}
