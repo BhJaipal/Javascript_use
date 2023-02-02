@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="programmer" content="Jaipal" />
+<meta name="title" content="3D Shapes" />
+<link rel="stylesheet" href="src/css/3d_html.css" />
+   <title>3D Shapes</title>
+</head>
+<body>
+    <nav><a href="#" style="text-decoration:none"></a>
+    <div class="list">
+      <button class="btn">≡</button>
+  <ul style="list-style-type:none">
+<li><a herf="#"><i class="material-icons">
+  home</i>Home</a></li>
+  <li><a href="#"></a><i class="material-icons">
+    info</i>About</li>
+  <li><a href="#"></a><i class="material-icons">
+    web_assert</i>Articles</li></ul>
+    </div>
+    <span id="name">&nbsp<char>C</char><char>o</char><char>d</char><char>d</char><char>i</char><char>n</char><char>g</char>&nbsp<br></br>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <char>H</char><char>u</char><char>b</char></span>
+  </nav>
+  <br><br>
+
+<label for="shape">Choose a 3D shape:
+<select id="shape">
+    <option>Select any one</option>
+    <option value="Sphere">Sphere</option>
+    <option value="Cube">Cube</option>
+    <option value="Cuboid">Cuboid</option>
+    <option value="Cylinder">Cylinder</option>
+</select><button id="shap_sub">Submit</button>
+</label>
+<br>
+<!--  -->
+<div class="sphere">
+    <label for="rad">Radius:
+        <input id="rad" type="number" placeholder="Enter">
+    </label><br><br>
+    <button id="sphere_sub">Submit</button>
+</div>
+<!--  -->
+<div class="cube">
+    <label for="side">Side:
+        <input id="side" type="number" placeholder="Enter">
+    </label><br><br>
+    <button id="cube_sub">Submit</button>
+</div>
+<!-- Enter Length, Breadth and Height in cuboid div  -->
+<div class="cuboid">
+    <label for="length">Length:
+        <input id="length" type="number" placeholder="Enter">
+    </label><br><label for="breadth">Breadth:
+        <input id="breadth" type="number" placeholder="Enter">
+    </label><br><label for="height">Height:
+        <input id="height" type="number" placeholder="Enter">
+    </label><br><br>
+    <button id="cuboid_sub">Submit</button>
+</div>
+<!-- Enter Radius and Height in cylinder div -->
+<div class="cylinder">
+    <label for="radi">Radius:
+        <input id="radi" type="number" placeholder="Enter">
+    </label><br><label for="hei">Height:
+        <input id="hei" type="number" placeholder="Enter">
+    </label><br><br>
+    <button id="cylinder_sub">Submit</button>
+</div>
+<label id="output"></label>
+   <!-- Cookies footer -->
+   <!-- Select Ok or Cancel to accept or reject cookies -->
+  <footer class="cookies" id="cook"><div class="divs"><div>Cookies</div><div>This is Footer.This is demo.
+    Click Ok to accept our cookies and Cancel to
+    to decline cookies.</div></div>
+    <button id="Ok">Ok</button>
+    <button id="Cancel">Cancel</button>
+  </footer>
+  
+  <script src="src/js/3d.js"></script>
+  <script src="src/js/3d_html.js"></script>
+</body>
+</html>
