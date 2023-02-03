@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "Docker .NET Core Attach (Preview)",
             "type": "docker",
             "request": "attach",
@@ -80,13 +87,6 @@
             "name": "Launch Julia tests",
             "program": "${workspaceFolder}/test/runtests.jl",
             "stopOnEntry": true
-        },
-        {
-            "name": "Launch Chrome",
-            "request"
-            "type": "chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
         },
         {
             "name": "Attach to Chrome",
