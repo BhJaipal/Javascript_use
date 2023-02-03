@@ -1,6 +1,5 @@
   *{box-sizing: border-box;
       background-color: black;
-      color: white;
   }
 @font-face {
   font-family: 'Material Icons';
@@ -102,41 +101,44 @@ label> #shap_sub:hover{
 }
 .cylinder > label > input {
   /* styles*/
-    border: 2px solid #222;
-    border-radius: 10px;
-    color: white;
-    height: 20px;
-    width: 50px;
-    background: #111;
+  border: 2px solid #222;
+  border-radius: 10px;
+  color: white;
+  height: 20px;
+  width: 50px;
+  background: #111;
 }
 .sphere> label{
     border: transparent;
     height: 40px;
+    color: white;
 }
 .cube> label{
     border: transparent;
     height: 40px;
+    color: white;
 }
 .cuboid> label{
     border: transparent;
     height: 40px;
+    color: white;
 }
 
 .cylinder > label {
     border: transparent;
     height: 40px;
+    color: white;
 }
 
 .sphere{height: 70px;}
 .cube{height: 70px;}
 .cuboid{height: 150px;}
-.cylinder {
-    height: 130px;
-}
+.cylinder {height: 130px;}
 .sphere> #sphere_sub{
     border: 2px solid #111;
     border-radius: 3px;
     background-color: #222;
+    color: white;
 }
 .sphere> #sphere_sub:hover{border-color: #f0e118;}
 
@@ -144,6 +146,7 @@ label> #shap_sub:hover{
     border: 2px solid #111;
     border-radius: 3px;
     background-color: #222;
+    color: white;
 }
 .cube> #cube_sub:hover{border-color: #f0e118;}
 
@@ -151,6 +154,7 @@ label> #shap_sub:hover{
     border: 2px solid #111;
     border-radius: 3px;
     background-color: #222;
+    color: white;
 }
 .cuboid> #cuboid_sub:hover{border-color: #f0e118;}
 
@@ -158,6 +162,7 @@ label> #shap_sub:hover{
     border: 2px solid #111;
     border-radius: 3px;
     background-color: #222;
+    color: white;
 }
 .cylinder> #cylinder_sub:hover{border-color: #f0e118;}
 
