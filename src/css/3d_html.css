@@ -124,6 +124,7 @@ label> #shap_sub:hover{
 }
 .cylinder> #cylinder_sub:hover{border-color: #f0e118;}
 
+.cookies{position: fixed; bottom: 0px;}
 .cookies>.divs
 {color:#fff;
 margin-bottom:0px;
