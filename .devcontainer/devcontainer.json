@@ -1,1 +1,27 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"formulahendry.code-runner",
+				"bierner.github-markdown-preview",
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"bianxianyang.htmlplay",
+				"george-alisson.html-preview-vscode",
+				"ms-toolsai.jupyter",
+				"docsmsft.docs-markdown",
+				"hdg.live-html-previewer",
+				"ritwickdey.LiveServer",
+				"negokaz.live-server-preview",
+				"yzhang.markdown-all-in-one",
+				"WallabyJs.quokka-vscode",
+				"nodesource.vscode-for-node-js-development-pack",
+				"jithurjacob.nbpreviewer",
+				"HarryHopkinson.vs-code-runner",
+				"WallabyJs.wallaby-vscode",
+				"msjsdiag.debugger-for-chrome"
+			]
+		}
+	}
+}
