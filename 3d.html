@@ -24,8 +24,8 @@
   <char id>H</char><char id="u">u</char><char id="b">b</char></span>
 </nav>
 <br><br>
-
-<label for="shape" style="color: white">Choose a 3D shape:
+<div class="label_design">
+<label for="shape">Choose a 3D shape:
 <select id="shape">
     <option style="color: white">Select any one</option>
     <option value="Sphere" style="color: white">Sphere</option>
@@ -33,7 +33,7 @@
     <option value="Cuboid" style="color: white">Cuboid</option>
     <option value="Cylinder" style="color: white">Cylinder</option>
 </select><button id="shap_sub" style="color: white">Submit</button>
-</label>
+</label></div>
 <br>
 <!-- Enter Radius in Sphere div -->
 <div class="sphere">
@@ -53,9 +53,9 @@
 <div class="cuboid">
     <label for="length">Length:
         <input id="length" type="number" placeholder="Enter">
-    </label><br><label for="breadth">Breadth:
+    </label><br><br><label for="breadth">Breadth:
         <input id="breadth" type="number" placeholder="Enter">
-    </label><br><label for="height">Height:
+    </label><br><><label for="height">Height:
         <input id="height" type="number" placeholder="Enter">
     </label><br><br>
     <button id="cuboid_sub">Submit</button>
@@ -64,7 +64,7 @@
 <div class="cylinder">
     <label for="radi">Radius:
         <input id="radi" type="number" placeholder="Enter">
-    </label><br><label for="hei">Height:
+    </label><br><br><label for="hei">Height:
         <input id="hei" type="number" placeholder="Enter">
     </label><br><br>
     <button id="cylinder_sub">Submit</button>
@@ -75,8 +75,8 @@
   <footer class="cookies" id="cook"><div class="divs"><div>Cookies</div><div>This is Footer.This is demo.
     Click Ok to accept our cookies and Cancel to
     to decline cookies.</div></div>
-    <button id="Ok">Ok</button>
-    <button id="Cancel">Cancel</button>
+    <button id="Ok" class="cook_btn">Ok</button>
+    <button id="Cancel" class="cook_btn">Cancel</button>
   </footer>
   
   <script src="src/js/3d.js"></script>
