@@ -17,7 +17,7 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cube_dis.style.display= "none";
         document.getElementById("sphere_sub").onclick= function() {
-            let rad= parseFloat(document.getElementById("rad").value);
+            let rad= parseFloat(document.getElementById("rad").value) || 0;
             var mySphere = new Sphere(rad);
             var sa= mySphere.sphere_tsa(rad);
             var vol= mySphere.sphere_volume(rad);
@@ -31,7 +31,7 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cyl_dis.style.display = "none";
         document.getElementById("cube_sub").onclick= function() {
-            let side= document.getElementById("side").value; 
+            let side= document.getElementById("side").value || 0; 
             var myCube= new Cube(side);
             var cub_tsa= myCube.cube_tsa(side);
             var cub_lsa= myCube.cube_lsa(side);
@@ -47,9 +47,9 @@ shape_sub.addEventListener("click", function() {
         cyl_dis.style.display = "none";
         cube_dis.style.display= "none";
         document.getElementById("cuboid_sub").onclick= function() {
-            let length =document.getElementById("length").value;
-            let breadth= document.getElementById("breadth").value;
-            let height =document.getElementById("height").value;
+            let length =document.getElementById("length").value || 0;
+            let breadth= document.getElementById("breadth").value || 0;
+            let height =document.getElementById("height").value || 0;
             var myCuboid= new Cuboid(length, breadth, height);
             var cbd_tsa= myCuboid.cuboid_tsa(length, breadth, height);
             var cbd_lsa= myCuboid.cuboid_lsa(length, breadth, height);
@@ -65,8 +65,8 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cube_dis.style.display= "none";
         document.getElementById("cylinder_sub").onclick= function() {
-            let radis= document.getElementById("radi").value;
-            let  hei = document.getElementById("hei").value;
+            let radis= document.getElementById("radi").value || 0;
+            let  hei = document.getElementById("hei").value || 0;
             let myCylinder= new Cylinder(radis, hei);
             var cyl_tsa= myCylinder.cylinder_tsa(radis, hei);
             var cyl_csa= myCylinder.cylinder_csa(radis, hei);
