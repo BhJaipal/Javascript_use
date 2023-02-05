@@ -83,11 +83,5 @@
          color: white;
       }
 ```
-Output:
-
-  <div class='input-cnt' style="display: flex">
-      <i class='material-icons' style="min-width: 40px;padding: 10px;text-align: center;background: grey;border-top-left-radius: 20px;border-bottom-left-radius: 20px">search</i>
-      <input type='text' placeholder='Search here...' style="outline: none;border: none;padding: 10px;border: 1px solid lightgrey;border-top-right-radius: 20px;border-bottom-right-radius: 20px;width: 60%;color: white;transition: width .5s;"/>
-  </div>
 
 This repo will contain html, javascript and css files
