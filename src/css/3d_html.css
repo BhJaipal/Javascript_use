@@ -26,6 +26,10 @@ span>char{
   -webkit-font-smoothing: antialiased;
   background: transparent;
 }
+.sphere {display: none;}
+.cylinder {display: none;}
+.cuboid {display: none;}
+.cube {display: none;}
 
 label> #shap_sub:hover{
     border-color: #f0e118;
