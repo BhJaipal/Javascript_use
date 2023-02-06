@@ -7,7 +7,8 @@
 </p> 
   
 
-[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com)
+[![Visual Studio Code](https://badgen.net/badge/icon/visualstudiocode?icon=visualstudiocode&label)](https://code.visualstudio.com) [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 <p align="center">
