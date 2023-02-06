@@ -14,6 +14,7 @@
 <p align="center">
  <img src="https://img.shields.io/github/last-commit/BhJaipal/Python-Module?color=aqua&logo=%20Github&logoColor=%20yellow&style=plastic"> 
  <img src="https://img.shields.io/github/contributors/BhJaipal/Python-Module?color=blue&logo=%20Github&logoColor=%20yellow&style=plastic"> 
+  <img src="https://img.shields.io/badge/Made%20with-javascript-1f425f.svg">
 </p>
 
 **I created this repo as if I want select a design for a website in my choice**
