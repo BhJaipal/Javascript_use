@@ -1,9 +1,6 @@
 # Javascript_use
-<html>
-<head>
-<link rel="stylesheet" href="src/css/3d_html.css"/>
-</head>
-<body>
+# [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
 <p align="center">
  <a href="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=BhJaipal&layout=compact&langs_count=16&theme=dark&background=black">  
      <img src="http://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=BhJaipal&layout=compact&langs_count=16&background=black&theme=dark" style="margin-left:10px"/>  
