@@ -1,5 +1,4 @@
 # Javascript_use
-# [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com)
 
 <p align="center">
  <a href="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=BhJaipal&layout=compact&langs_count=16&theme=dark&background=black">  
@@ -7,7 +6,11 @@
  </a>  
 </p> 
   
-<p align="center"> 
+
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+<p align="center">
  <img src="https://img.shields.io/github/last-commit/BhJaipal/Python-Module?color=aqua&logo=%20Github&logoColor=%20yellow&style=plastic"> 
  <img src="https://img.shields.io/github/contributors/BhJaipal/Python-Module?color=blue&logo=%20Github&logoColor=%20yellow&style=plastic"> 
 </p>
