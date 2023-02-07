@@ -31,6 +31,7 @@
         <i class='material-icons'>expand_more</i></button>
     <p class='python-code'>
 <pre>
+
 ```python
 import os, setuptools
 print("Hello world")
@@ -38,6 +39,7 @@ print("Hello world")
 os.system("sh") # or
 setuptools.setup()
 ```
+
 </pre></p>
 </div></div><br>
 
