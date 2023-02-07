@@ -2,8 +2,6 @@
 <head>
     
   <link href='src/css/HubStyle1.css' rel='stylesheet'></link>
-   
-  <title>Codding hub</title>
 </head>
 <body>
     
@@ -33,14 +31,13 @@
         <i class='material-icons'>expand_more</i></button>
     <p class='python-code'>
 <pre>
->>> <key>import</key> os, setuptools
->>> <key>print</key>(<code>"Hello world"</code>)
-<code>"Hello world"</code>
->>> os.<b style="color:orange; background: transparent">system</b>(<a>"sh"</a>) <c style="color:grey; background:transparent"># or</c>
-$ exit
-
->>> setuptools.<b style="color:orange; background: transparent">setup</b>()
-$ exit
+```python
+import os, setuptools
+print("Hello world")
+"Hello world"
+os.system("sh") # or
+setuptools.setup()
+```
 </pre></p>
 </div></div><br>
 
