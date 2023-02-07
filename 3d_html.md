@@ -4,12 +4,11 @@
 <head>
 <meta name="programmer" content="Jaipal" />
 <meta name="title" content="3D Shapes" />
-<link rel="stylesheet" href="src/css/3d_html.css" />
-   <title>3D Shapes</title>
+<link rel="stylesheet" href="https://github.com/BhJaipal/Javascript_use/blob/main/css/3d_html.css" />
 </head>
 <body>
 <nav>
-    <a href='#' style='text-decoration:none'> </a>
+  <a href='#' style='text-decoration:none'> </a>
     <div class='list'>
       <button class='btn' id="btn">≡</button>
     <ul style='list-style-type:none' class="navs">
