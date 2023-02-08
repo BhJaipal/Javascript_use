@@ -7,7 +7,7 @@
 </p> 
   
 
-[![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com) 
+[![Visual Studio Code](https://img.shields.io/badge/V_S_Code-007ACC?logo=visual%20studio%20code&logoColor=3f3f8f)](https://code.visualstudio.com) 
 [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) 
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label&color=black)](https://github.com) 
 [![GitHub stars](https://img.shields.io/github/stars/BhJaipal/Javascript_use.svg?style=social&label=Star&maxAge=2592000)](https://github.com/BhJaipal/Javascript_use) 
@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/github/last-commit/BhJaipal/Python-Module?color=aqua&logo=%20Github&logoColor=%20yellow&style=plastic"> 
   <img src="https://img.shields.io/github/contributors/BhJaipal/Python-Module?color=blue&logo=%20Github&logoColor=%20yellow&style=plastic"> 
   <img src="https://img.shields.io/badge/Made%20with-javascript-1f425f.svg">
-  <img src="https://img.shields.io/badge/V_S_Code-333?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-684?style=for-the-badge&logo=visual%20studio%20code&logoColor=3f3f8f&style=plastic" />
 </p>
 
 **I created this repo as if I want select a design for a website in my choice**
