@@ -18,7 +18,7 @@ function sUp() {
     if (elem.style.height== "230px") {
         elem.style.height = "47px";
         elem.style.overflow= "hidden";
-        elem.style.transitionDuration: "1s";
+        elem.style.transitionDuration= "1s";
     }
 
     else {
