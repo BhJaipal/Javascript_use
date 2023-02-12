@@ -1,9 +1,9 @@
 window.boxSizing = "border-box";
 document.body.style = "display: flex; min-height: 100vh; flex-direction: column;";
-/*
-            I will add light theme soon
-*/
+
 document.body.style.backgroundColor = "black";
+document.getElementById("theme").src= "src/img/dark_mode_white.png";
+
             //color: white
 document.body.style.color = "white";
             // transparent border border image
@@ -88,6 +88,7 @@ function theming() {
     // Dark Theme
     document.getElementById("theme").ondblclick = function () {
         document.body.style.backgroundColor = "black";
+        document.getElementById("theme").src= "src/img/dark_mode_white.png";
         //color: white
         document.getElementById("name").style.color = "white";
         // transparent border border image
@@ -170,6 +171,8 @@ function theming() {
     // Light theme
     document.getElementById("theme").onclick = function () {
         document.body.style.backgroundColor = "white";
+        document.getElementById("theme").src= "src/img/light_mode_white.png";
+        document.getElementById("theme").style ="height: 60px; width: auto;";
         //color: black
         document.getElementById("name").style.color = "black";
         // transparent border border image
