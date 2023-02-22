@@ -27,7 +27,8 @@
 **I created this repo as if I want select a design for a website in my choice**
 
 ```js
-console.log("Hello World");
+console.log(`Hello ${window.prompt("Enter your name: ")}`);
 ```
+`Hello entered_name`
 
 This repo will contain html, javascript and css files
