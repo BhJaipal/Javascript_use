@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    background: black;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v128/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+.navig>#name {
+    font-weight: bold;
+    font-size: 20px;
+}
+span>char {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 1px;
+    border-image-outset: 1px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to top left, blue, red) 1 stretch;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    background: transparent;
+}
+.sphere {
+    height: 70px;
+    color: white;
+}
+.cylinder {
+    height: 130px;
+    color: white;
+}
+.cuboid {
+    height: 150px;
+    color: white;
+}
+.cube {
+    height: 70px;
+    color: white;
+}
+
+label> #shap_sub:hover {
+    border-color: #f0e118;
+}
+#shap_sub {
+    background: black;
+    color: white;
+}
+.sphere> label {
+    border: transparent;
+    height: 40px;
+}
+.cube> label {
+    border: transparent;
+    height: 40px;
+}
+.cuboid> label {
+    border: transparent;
+    height: 40px;
+}
+
+.cylinder > label {
+    border: transparent;
+    height: 40px;
+}
+.cookies {
+    position: fixed;
+    bottom: 0px;
+}
+#Ok {
+    margin-left: 50px;
+    color: #fff;
+    border-radius: 20px;
+    background: #111;
+    font-size: 120%;
+    width: 50px;
+}
+#Cancel {
+    margin-left: 130px;
+    color: #fff;
+    border-radius: 20px;
+    background: #111;
+    font-size: 120%;
+    width: 100px;
+}
+
+.btn {
+    border: 5px solid #090909;
+    width: 90px;
+    height: 70px;
+    border-radius: 10px;
+}
+.list {
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+.navs {
+    color: grey;
+    background: black;
+    padding-left: 0;
+    text-align: justify;
+    position: absolute;
+    width: 0;
+    height: 100px;
+    transition: width 0.5s;
+    overflow: auto;
+}
+.list:hover> .navs {
+    width: 90px;
+}
+.btn:hover {
+    border: 5px solid RoyalBlue;
+}
+.navs> li:hover {
+    color: white;
+}
+#output {
+    color: white;
+}
+.divs {
+    color: #fff;
+    width: 100%;
+    height: 110px;
+    padding: 0px;
+    text-align: center;
+}
+.divs > #div1 {
+    font-size: 150%;
+}
+#sphere_sub {
+    border: 2px solid #111;
+    border-radius: 3px;
+    background-color: #222;
+    color: white;
+}
+#cube_sub {
+    border: 2px solid #111;
+    border-radius: 3px;
+    background-color: #222;
+    color: white;
+}
+#cuboid_sub {
+    border: 2px solid #111;
+    border-radius: 3px;
+    background-color: #222;
+    color: white;
+}
+#cylinder_sub {
+    border: 2px solid #111;
+    border-radius: 3px;
+    background-color: #222;
+    color: white;
+}
+#sphere_sub:hover {
+    border: 2px solid #f0e118;
+}
+#cube_sub:hover {
+    border: 2px solid #f0e118;
+}
+#cuboid_sub:hover {
+    border: 2px solid #f0e118;
+}
+#cylinder_sub:hover {
+    border: 2px solid #f0e118;
+}
+.label_design {
+    color: white;
+}
