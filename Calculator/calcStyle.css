@@ -1,0 +1,33 @@
+
+.input-box{
+    margin-top: 5px;
+    margin-left: 2.5px;
+    height: 100px;
+    width: 360px;
+    background: #ccc;
+    color: white;
+    font-size: 30px;
+    font-family: Sans-Serif;
+}
+table{
+    width: 360px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 2.5px;
+    background: #ccc;
+    table-layout: fixed;
+}
+.button-label > tr> td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: #aaa;
+}
+.button-label > tr> td> button{
+    width: 85px;
+    height: 113px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+.sym{
+    background: #c00;
+}

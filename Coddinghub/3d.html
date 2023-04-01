@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="programmer" content="Jaipal" />
+    <meta name="title" content="3D Shapes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/css/3d_html.css" />
+    <title>3D Shapes</title>
+</head>
+<body>
+    <nav class="navig">
+        <a href="#" style="text-decoration:none"></a>
+        <div class="list" style="float:left">
+            <img src="src/img/menu-button.jpg" id="btn" class="btn" width=50 height=50 />
+            <ul style="list-style-type:none" class="navs">
+                <li><a herf="#"><i class="material-icons">
+                    home</i>Home</a></li>
+                <li><a href="#"></a><i class="material-icons">
+                    info</i>About</li>
+                <li><a href="#"></a><i class="material-icons">
+                    web_assert</i>Articles</li>
+            </ul>
+        </div>
+        <span id="name">
+            <char>C</char><char>o</char><char>d</char><char>d</char><char>i</char><char>n</char><char>g</char><br>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <char>H</char><char>u</char><char>b</char></span>
+    </nav>
+    <br><br>
+    <div class="label_design">
+        <label for="shape">Choose a 3D shape:
+            <select id="shape" style="color:white">
+                <option>Select any one</option>
+                <option value="Sphere">Sphere</option>
+                <option value="Cube">Cube</option>
+                <option value="Cuboid">Cuboid</option>
+                <option value="Cylinder">Cylinder</option>
+            </select>
+            <button id="shap_sub">Submit</button>
+        </label>
+    </div>
+    <br>
+    <!-- Enter Radius in Sphere div -->
+    <div class="sphere">
+        <label for="rad">Radius:
+            <input id="rad" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br>
+        <button id="sphere_sub">Submit</button>
+    </div>
+    <!-- Enter Side in Cube div -->
+    <div class="cube">
+        <label for="side">Side:
+            <input id="side" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br>
+        <button id="cube_sub">Submit</button>
+    </div>
+    <!-- Enter Length, Breadth and Height in cuboid div  -->
+    <div class="cuboid">
+        <label for="length">Length:
+            <input id="length" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br><label for="breadth">Breadth:
+            <input id="breadth" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br><label for="height">Height:
+            <input id="height" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br>
+        <button id="cuboid_sub">Submit</button>
+    </div>
+    <!-- Enter Radius and Height in cylinder div -->
+    <div class="cylinder">
+        <label for="radi">Radius:
+            <input id="radi" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br><label for="hei">Height:
+            <input id="hei" style="border: 2px solid #222; border-radius: 10px; color: white; height: 20px; width: 50px; background: #111;" type="number" placeholder="Enter">
+        </label><br><br>
+        <button id="cylinder_sub">Submit</button>
+    </div>
+    <label id="output"></label>
+    <!-- Cookies footer -->
+    <!-- Select Ok or Cancel to accept or reject cookies -->
+    <footer class="cookies" id="cook">
+        <div class="divs">
+            <div id="div1">
+                Cookies
+            </div>
+            <div>
+                This is Footer.This is demo.
+                Select Ok to accept our cookies and Cancel to
+                to decline cookies.
+            </div>
+        </div>
+        <button id="Ok" class="cook_btn">Ok</button>
+        <button id="Cancel" class="cook_btn">Cancel</button>
+    </footer>
+
+    <script src="src/js/3d.js"></script>
+    <script src="src/js/3d_html.js"></script>
+</body>
+</html>

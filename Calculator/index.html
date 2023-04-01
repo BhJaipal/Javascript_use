@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcStyle.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="calculator">
+    <input type="number" id="input-box" class="input-box" disabled />
+    <table>
+    <tbody class="button-label">
+        <tr>
+            <td><button id="1" onclick="one()" class="number">1</button></td>
+            <td><button id="2" onclick="two()" class="number">2</button></td>
+            <td><button id="3" onclick="three()" class="number">3</button></td>
+            <td><button id="add" onclick="add()" class="sym">+</button></td>
+        </tr><tr>
+            <td><button id="4" onclick="four()" class="number">4</button></td>
+            <td><button id="5" onclick="five()" class="number">5</button></td>
+            <td><button id="6" onclick="six()" class="number">6</button></td>
+            <td><button id="sub" onclick="sub()" class="sym">-</button></td>
+        </tr><tr>
+            <td><button id="7" onclick="seven()" class="number">7</button></td>
+            <td><button id="8" onclick="eight()" class="number">8</button></td>
+            <td><button id="9" onclick="nine()" class="number">9</button></td>
+            <td><button id="mul" onclick="mul()" class="sym">×</button></td>
+        </tr><tr>
+            <td><button id="0" onclick="zero()" class="number">0</button></td>
+            <td><button id="dec" onclick="dec()" class="number">.</button></td>
+            <td><button id="div" onclick="div()" class="sym">÷</button></td>
+            <td><button id="eq" onclick="eq()" class="sym">=</button></td>
+        </tr><tr>
+            <td colspan="2"><button id="clear" onclick="clear" style="color:red; width: 174px">C</button></td>
+            <td><button id="neg" onclick="neg()">+/-</button></td>
+            <td><button id="del" onclick="del()">del</button></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+    <script src="calculator.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
