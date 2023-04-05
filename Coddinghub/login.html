@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/login.css" type="text/css" media="all" />
+    <title>PHP Form</title>
+</head>
+<body>
+    <form action="src/js/login.php" method="post">
+        <label id="name-label">User Name</label><br />
+        <input type="text" id="name" name="name" required>
+        <br /><br />
+        <label id="email-label">Email</label><br />
+        <input type="email" id="email" name="email" required>
+        <br /><br />
+        <label id="password-label">Password</label><br />
+        <input type="password" id="password" name="password" minlength="6" required>
+        <br /><br />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
