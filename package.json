@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "document": "^0.4.7",
+    "react": "^18.2.0",
+    "vscode": "^1.1.37",
+    "window": "^4.2.7"
+  }
+}
