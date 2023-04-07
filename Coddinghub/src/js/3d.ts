@@ -28,7 +28,7 @@ class Cuboid {
         */
     }
     cuboid_diagonal(): number {
-        return Math.sqrt(Math.pow(this.leng, 2) + Math.pow(this.brea, 2) + Math.pow(this.hei, 2));
+        return Math.sqrt(Math.pow(this.len, 2) + Math.pow(this.brea, 2) + Math.pow(this.hei, 2));
         /* Diagonal of Cuboid = 
             square root of (l^2 + b^2 + h^2)
         */
