@@ -138,7 +138,7 @@ var Cylinder = /** @class */ (function () {
     };
     return Cylinder;
 }());
-;
+;/*
 function execut() {
     while (true) {
         var choice = void 0;
@@ -170,4 +170,4 @@ function execut() {
             break;
         }
     }
-}
+}*/
