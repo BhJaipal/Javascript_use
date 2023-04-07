@@ -9,16 +9,12 @@ function questionBox(question) {
     return ("<div>".concat(question, "</div>"));
 }
 function board(questions, optionList) {
-    return (`<div>
-    `.concat(questionBox(questions), `
-    </div>
-    <div id="result"></div>
-    <div>
+    return (`<div>\n    `.concat(questionBox(questions), 
+    `\n    </div>    <div id="result"></div>    <div>
     `).concat(option("A", optionList[0]), "\n            ").concat(option("B", optionList[1]), 
     "\n            ").concat(option("C", optionList[2]),
     "\n            ").concat(option("D", optionList[3]), 
-    `\n        </div>
-    <button value="quit" style="border-radius: 20px; background: #d11">quit</button>`));
+    `\n        </div>\n    <button value="quit" style="border-radius: 20px; background: #d11">quit</button>`));
 }
 function game() {
     window.alert("To bhaiyo aur beheno Kaun Banega Karorpati mai apka Swagat hai\nMai Amitabh Bachan ...");
