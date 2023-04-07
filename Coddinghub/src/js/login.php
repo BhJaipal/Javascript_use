@@ -19,6 +19,7 @@ $conn->query("CREATE TABLE if not exists userData(
 )");
 $sql = "INSERT INTO userData(name, email, passwd) VALUES('$username', '$email', '$password')";
 $conn->query($sql);
+$conn->commit();
 $conn->close();
 
 header("Location: Codding_hub.html");
