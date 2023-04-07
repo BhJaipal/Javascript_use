@@ -11,7 +11,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-mysqli_query($conn, "CREATE TABLE if not exists userData(
+$conn->query("CREATE TABLE if not exists userData(
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name varchar(15),
     email varchar(20),
