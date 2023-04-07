@@ -1,36 +1,39 @@
 import Window from "window";
 
-const pi= 22/7;
+const pi: number= 22/7;
 class Cuboid {
-    constructor(length1, breadth, height) {
+    len: number;
+    brea: number;
+    heig: number;
+    constructor(length1: number, breadth: number, height: number) {
         this.len = length1;
         this.brea= breadth;
         this.heig= height;
     }
-    cuboid_tsa() {
+    cuboid_tsa(): number {
         return 2* (this.len *this. brea + this.brea * this.heig + this.len * this.heig);
         /* Total Surface area of Cuboid = 
                        2 * (l*b + b*h + l*h)
         */
     }
-    cuboid_lsa() {
+    cuboid_lsa(): number {
         return 2* this.heig*(this.len + this.brea);
         /* Lateral Surface area of Cuboid = 
                              2 * (l + b) *h
         */
     }
-    cuboid_volume() {
+    cuboid_volume(): number {
         return this.len * this.heig * this.brea;
         /* Volume of Cuboid = l*b*h
         */
     }
-    cuboid_diagonal() {
+    cuboid_diagonal(): number {
         return (Math.sqrt(Math.pow(this.leng, 2) + Math.pow(this.brea, 2) + Math.pow(this.hei, 2))).toFixed(2);
         /* Diagonal of Cuboid = 
             square root of (l^2 + b^2 + h^2)
         */
     }
-    execu() {
+    execu(): void {
         console.log("*************** Cuboid ***************");
         console.log("Total Surface area of Cuboid: ", this.cuboid_tsa());
         console.log("Lateral Surface area of Cuboid: ", this.cuboid_lsa());
@@ -42,32 +45,33 @@ class Cuboid {
 };
 
 class Cube {
-    constructor(side) {
+    side: number;
+    constructor(side: number) {
         this.side= side;
     }
-    cube_volume() {
+    cube_volume(): number {
         return Math.pow(this.side,3);
         /* Volume of Cube = a ^ 3
         */
     }
-    cube_lsa() {
+    cube_lsa(): number {
         return 4* this.side* this.side;
         /* Lateral Surface area of Cube = 
                                     4 * a^2
         */
     }
-    cube_tsa() {
+    cube_tsa(): number {
         return 6* this.side * this.side;
         /* Total Surface area of Cube = 
                                     6 * a^2
         */
     }
-    cube_diagonal() {
+    cube_diagonal(): number {
         return this.side* 1.732;
         /* Diagonal of Cube = a * root(3)
         */
     }
-    execu() {
+    execu(): void {
         console.log("*************** Cube ***************");
         console.log("Total Surface area of Cube: ", this.cube_tsa());
         console.log("Lateral Surface area of Cube: ", this.cube_lsa());
