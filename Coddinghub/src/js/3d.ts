@@ -1,7 +1,7 @@
 import Window from "window";
 
 const pi: number= 22/7;
-class Cuboid {
+export class Cuboid {
     len: number;
     brea: number;
     heig: number;
@@ -44,7 +44,7 @@ class Cuboid {
     }
 };
 
-class Cube {
+export class Cube {
     side: number;
     constructor(side: number) {
         this.side= side;
@@ -82,7 +82,7 @@ class Cube {
     }
 };
 
-class Sphere {
+export class Sphere {
     rad: number;
     constructor(radius: number) {
         this.rad = radius;
@@ -106,7 +106,7 @@ class Sphere {
     }
 };
 
-class Cylinder {
+export class Cylinder {
     radius: number;
     hei: number;
     constructor(radius: number, heigh: number) {
