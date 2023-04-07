@@ -14,7 +14,7 @@ cube_dis.style.display= "none";
 
 const shape_sub= Document.getElementById("shap_sub");
 shape_sub.addEventListener("click", function() {
-    shapes: string = document.getElementById("shape").value;
+    var shapes= document.getElementById("shape").value;
     if (shapes == "Sphere") {
         sph_dis.style.display = "block";
         cyl_dis.style.display = "none";
