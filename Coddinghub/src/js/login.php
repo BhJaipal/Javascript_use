@@ -5,12 +5,7 @@ $username = $_POST['name'];
 $email= $_POST["email"];
 $password = $_POST['password'];
 
-$host = "localhost";
-$user = "Jaipal";
-$passwd = "root";
-$dbname = "myDB";
-
-$conn = mysqli_connect($host, $user, $passwd, $dbname);
+$conn = mysqli_connect("localhost", $username="Jaipal", $password="root", $database="data");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
@@ -23,8 +18,8 @@ mysqli_query($conn, "CREATE TABLE if not exists userData(
     passwd varchar(10)
 )");
 $sql = "INSERT INTO userData(name, email, passwd) VALUES('$username', '$email', '$password')";
-$result = mysqli_query($conn, $sql);
-mysqli_close($conn);
+$conn->query($sql);
+$conn->close();
 
 header("Location: Codding_hub.html");
 ?>
