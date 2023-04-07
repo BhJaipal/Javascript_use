@@ -83,20 +83,21 @@ class Cube {
 };
 
 class Sphere {
-    constructor(radius) {
+    radius: number;
+    constructor(radius: number) {
         this.radius = radius;
     }
-    sphere_tsa() {
+    sphere_tsa(): number {
         return 4 * pi * Math.pow(this.radius,2);
         /* Surface area of sphere= 4*pi* (radius)^2
         */
     }
-    sphere_volume() {
+    sphere_volume(): number {
         return Math.round(4/3 * pi * Math.pow(this.radius,3));
         /* Volume of sphere= 4/3*pi*(radius)^3
         */
     }
-    execu() {
+    execu(): void {
         console.log("*************** Sphere ***************");
         console.log("Total Surface area of Sphere: ", this.sphere_tsa());
         console.log("Volume of Sphere: ", this.sphere_volume());
@@ -106,29 +107,31 @@ class Sphere {
 };
 
 class Cylinder {
+    radius: number;
+    height: number;
     constructor(radius, height) {
         this.radius= radius;
         this.height= height;
     }
-    cylinder_tsa() {
+    cylinder_tsa(): number {
         return 2* pi* this.radius *(this.height + this.radius);
         /* Total Surface area of Cylinder = 
                 2*pi*radius *(height + radius)
         */
     }
-    cylinder_csa() {
+    cylinder_csa(): number {
         return 2* pi* this.radius* this.height;
         /* Curved Surface area of Cylinder = 
                         2*pi * radius *height
         */
     }
-    cylinder_volume() {
+    cylinder_volume(): number {
         return pi* Math.pow(this.radius,2)* this.height;
         /* Volume of Cylinder = 
                     pi * (radius)^2 * height
         */
     }
-    execu() {
+    execu(): void {
         console.log("*************** Cylinder ***************");
         console.log("Total Surface area of Cuboid: ", this.cylinder_tsa());
         console.log("Curved Surface area of Cuboid: ", this.cylinder_csa());
@@ -137,9 +140,9 @@ class Cylinder {
         Window.alert("*********** Cylinder ***********" +"\nTotal Surface area of Cuboid: "+ this.cylinder_tsa() +"\nCurved Surface area of Cuboid: "+ this.cylinder_csa() + "\nVolume of Cuboid: "+ this.cylinder_volume() + "\n******************************");
     }
 };
-function execut(){
+function execut(): void {
 while (true) {
-    let choice;
+    let choice: string;
     choice= Window.prompt("Choose any one: \n1. Sphere \n2. Cube \n3. Cuboid \n4. Cylinder \nEnter your choice number: ")
     choice= Number(choice);
     console.log("\n");
