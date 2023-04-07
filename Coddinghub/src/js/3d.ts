@@ -40,7 +40,7 @@ class Cuboid {
         console.log("Volume of Cuboid: ", this.cuboid_volume());
         console.log("Diagonal of Cuboid: ", this.cuboid_diagonal());
         console.log("**************************************");
-        Window.alert("************ Cuboid *************"+ "\nTotal Surface area of Cuboid: "+ this.cuboid_tsa()+ "\nLateral Surface area of Cuboid: "+ this.cuboid_lsa() + "\nVolume of Cuboid: "+ this.cuboid_volume() + "\nDiagonal of Cuboid: "+ this.cuboid_diagonal() +"\n********************************");
+        //Window.alert("************ Cuboid *************"+ "\nTotal Surface area of Cuboid: "+ this.cuboid_tsa()+ "\nLateral Surface area of Cuboid: "+ this.cuboid_lsa() + "\nVolume of Cuboid: "+ this.cuboid_volume() + "\nDiagonal of Cuboid: "+ this.cuboid_diagonal() +"\n********************************");
     }
 };
 
@@ -78,7 +78,7 @@ class Cube {
         console.log("Volume of Cube: ", this.cube_volume());
         console.log("Diagonal of Cube: ", this.cube_diagonal());
         console.log("************************************");
-        Window.alert("************* Cube *************\nTotal Surface area of Cube: "+ this.cube_tsa(this.side)+"\nLateral Surface area of Cube: "+ this.cube_lsa(this.side)+ "\nVolume of Cube: "+ this.cube_volume(this.side)+ "\nDiagonal of Cube: "+ this.cube_diagonal(this.side)+"\n********************************");
+        //Window.alert("************* Cube *************\nTotal Surface area of Cube: "+ this.cube_tsa(this.side)+"\nLateral Surface area of Cube: "+ this.cube_lsa(this.side)+ "\nVolume of Cube: "+ this.cube_volume(this.side)+ "\nDiagonal of Cube: "+ this.cube_diagonal(this.side)+"\n********************************");
     }
 };
 
@@ -102,7 +102,7 @@ class Sphere {
         console.log("Total Surface area of Sphere: ", this.sphere_tsa());
         console.log("Volume of Sphere: ", this.sphere_volume());
         console.log("**************************************");
-        Window.alert("************ Sphere ************" + "\nTotal Surface area of Sphere: "+ this.sphere_tsa() + "\nVolume of Sphere: "+ this.sphere_volume() + "\n********************************");
+        //Window.alert("************ Sphere ************" + "\nTotal Surface area of Sphere: "+ this.sphere_tsa() + "\nVolume of Sphere: "+ this.sphere_volume() + "\n********************************");
     }
 };
 
@@ -137,7 +137,7 @@ class Cylinder {
         console.log("Curved Surface area of Cuboid: ", this.cylinder_csa());
         console.log("Volume of Cuboid: ", this.cylinder_volume());
         console.log("****************************************");
-        Window.alert("*********** Cylinder ***********" +"\nTotal Surface area of Cuboid: "+ this.cylinder_tsa() +"\nCurved Surface area of Cuboid: "+ this.cylinder_csa() + "\nVolume of Cuboid: "+ this.cylinder_volume() + "\n******************************");
+        //Window.alert("*********** Cylinder ***********" +"\nTotal Surface area of Cuboid: "+ this.cylinder_tsa() +"\nCurved Surface area of Cuboid: "+ this.cylinder_csa() + "\nVolume of Cuboid: "+ this.cylinder_volume() + "\n******************************");
     }
 };
 function execut(): void {
