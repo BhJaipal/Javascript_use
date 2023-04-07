@@ -109,7 +109,7 @@ class Sphere {
 class Cylinder {
     radius: number;
     height: number;
-    constructor(radius, height) {
+    constructor(radius: number, height: number) {
         this.radius= radius;
         this.height= height;
     }
@@ -142,9 +142,8 @@ class Cylinder {
 };
 function execut(): void {
 while (true) {
-    let choice: string;
-    choice= Window.prompt("Choose any one: \n1. Sphere \n2. Cube \n3. Cuboid \n4. Cylinder \nEnter your choice number: ")
-    choice= Number(choice);
+    let choice: number;
+    choice= Number(Window.prompt("Choose any one: \n1. Sphere \n2. Cube \n3. Cuboid \n4. Cylinder \nEnter your choice number: "));
     console.log("\n");
     switch (choice) {
         case 1:
@@ -167,6 +166,6 @@ while (true) {
             console.log("Only these 4 3D shapes are available");
             break;
     }
-    let cont = Window.prompt("Do you want to continue? [Yn]: ");
+    let cont: string = Window.prompt("Do you want to continue? [Yn]: ");
     if (cont== "N" || cont== "n") {break;}
 }}
