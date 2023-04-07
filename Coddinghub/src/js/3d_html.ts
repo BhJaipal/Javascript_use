@@ -73,10 +73,10 @@ shape_sub.addEventListener("click", function() {
             let hei : number= Document.getElementById("hei").value || 0;
             let myCylinder: Shapes.Cylinder= new Shapes.Cylinder(radi, hei);
             var cyli_tsa: number= myCylinder.cylinder_tsa();
-            var cyl_csa: number= myCylinder.cylinder_csa();
-            var cyl_vol: number= myCylinder.cylinder_volume();
-            output.innerHTML= `Total Surface area: ${cyli_tsa}<br>Volume: ${cyl_vol}<br>Curved Surface area: ${cyl_csa}`;
-            Window.alert(`Total Surface area: ${cyli_tsa} \nVolume: ${cyl_vol} \nCurved Surface area: ${cyl_lsa}`);
+            var cyli_csa: number= myCylinder.cylinder_csa();
+            var cyli_vol: number= myCylinder.cylinder_volume();
+            output.innerHTML= `Total Surface area: ${cyli_tsa}<br>Volume: ${cyli_vol}<br>Curved Surface area: ${cyli_csa}`;
+            Window.alert(`Total Surface area: ${cyli_tsa} \nVolume: ${cyli_vol} \nCurved Surface area: ${cyli_csa}`);
         };
     }
     else {
@@ -85,14 +85,14 @@ shape_sub.addEventListener("click", function() {
     }
 });
   
-var cook=document.getElementById("cook");
-var btn1=document.getElementById("Ok");
+var cook= Document.getElementById("cook");
+var btn1= Document.getElementById("Ok");
 btn1.addEventListener("click",function() {
     Window.alert("Thanks for accepting Cookies");
     cook.style.display="none";
 });
 
-var btn2=document.getElementById("Cancel");
+var btn2= Document.getElementById("Cancel");
 btn2.addEventListener("click",function() {
     Window.alert("Please accept cookies on your next visit");
     cook.style.display="none";
