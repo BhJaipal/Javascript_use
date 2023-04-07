@@ -14,7 +14,7 @@ cube_dis.style.display= "none";
 
 const shape_sub= Document.getElementById("shap_sub");
 shape_sub.addEventListener("click", function() {
-    var shapes= document.getElementById("shape").value;
+    var shapes = (<HTMLSelectElement>document.getElementById("shape")).value;
     if (shapes == "Sphere") {
         sph_dis.style.display = "block";
         cyl_dis.style.display = "none";
@@ -23,8 +23,8 @@ shape_sub.addEventListener("click", function() {
         Document.getElementById("sphere_sub").onclick= function() {
             let rad: number= parseFloat(document.getElementById("rad").value) || 0;
             var mySphere: Shapes.Sphere = new Shapes.Sphere(rad);
-            var sa : number = mySphere.sphere_tsa(rad);
-            var vol: number= mySphere.sphere_volume(rad);
+            var sa : number = mySphere.sphere_tsa();
+            var vol: number= mySphere.sphere_volume();
             output.innerHTML= `Surface area: ${sa}<br>Volume: ${vol}`;
             Window.alert(`Surface area: ${sa}\nVolume: ${vol}`);
         };
@@ -37,10 +37,10 @@ shape_sub.addEventListener("click", function() {
         Document.getElementById("cube_sub").onclick= function() {
             let side: number= Document.getElementById("side").value || 0; 
             var myCube: Shapes.Cube = new Shapes.Cube(side);
-            var cub_tsa: number= myCube.cube_tsa(side);
-            var cub_lsa: number= myCube.cube_lsa(side);
-            var cub_vol: number= myCube.cube_volume(side);
-            var cub_dia: number= myCube.cube_diagonal(side);
+            var cub_tsa: number= myCube.cube_tsa();
+            var cub_lsa: number= myCube.cube_lsa();
+            var cub_vol: number= myCube.cube_volume();
+            var cub_dia: number= myCube.cube_diagonal();
             output.innerHTML= `Total Surface area: ${cub_tsa}<br>Volume: ${cub_vol}<br>Lateral Surface area: ${cub_lsa}<br>Length of Diagonal: ${cub_dia}`;
             Window.alert(`Total Surface area: ${cub_tsa} \nVolume: ${cub_vol} \nLateral Surface area: ${cub_lsa} \nLength of Diagonal: ${cub_dia}`);
         };
@@ -55,10 +55,10 @@ shape_sub.addEventListener("click", function() {
             let breadth: number= Document.getElementById("breadth").value || 0;
             let height : number= Document.getElementById("height").value || 0;
             var myCuboid: Shapes.Cuboid= new Shapes.Cuboid(length, breadth, height);
-            var cbd_tsa: number= myCuboid.cuboid_tsa(length, breadth, height);
-            var cbd_lsa: number= myCuboid.cuboid_lsa(length, breadth, height);
-            var cbd_vol: number= myCuboid.cuboid_volume(length, breadth, height);
-            var cbd_dia: number= myCuboid.cuboid_diagonal(length, breadth, height);
+            var cbd_tsa: number= myCuboid.cuboid_tsa();
+            var cbd_lsa: number= myCuboid.cuboid_lsa();
+            var cbd_vol: number= myCuboid.cuboid_volume();
+            var cbd_dia: number= myCuboid.cuboid_diagonal();
             output.innerHTML= `Total Surface area: ${cbd_tsa}<br>Volume: ${cbd_vol}<br>Lateral Surface area: ${cbd_lsa}<br>Length of Diagonal: ${cbd_dia}`;
             Window.alert(`Total Surface area: ${cbd_tsa} \nVolume: ${cbd_vol} \nLateral Surface area: ${cbd_lsa} \nLength of Diagonal: ${cbd_dia}`);
         };
@@ -72,9 +72,9 @@ shape_sub.addEventListener("click", function() {
             let radi: number= Document.getElementById("radi").value || 0;
             let hei : number= Document.getElementById("hei").value || 0;
             let myCylinder: Shapes.Cylinder= new Shapes.Cylinder(radi, hei);
-            var cyl_tsa: number= myCylinder.cylinder_tsa(radis, hei);
-            var cyl_csa: number= myCylinder.cylinder_csa(radis, hei);
-            var cyl_vol: number= myCylinder.cylinder_volume(radis, hei);
+            var cyl_tsa: number= myCylinder.cylinder_tsa();
+            var cyl_csa: number= myCylinder.cylinder_csa();
+            var cyl_vol: number= myCylinder.cylinder_volume();
             output.innerHTML= `Total Surface area: ${cyl_tsa}<br>Volume: ${cyl_vol}<br>Curved Surface area: ${cyl_csa}`;
             Window.alert(`Total Surface area: ${cyl_tsa} \nVolume: ${cyl_vol} \nCurved Surface area: ${cyl_lsa}`);
         };
