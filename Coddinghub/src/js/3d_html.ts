@@ -14,17 +14,17 @@ cube_dis.style.display= "none";
 
 const shape_sub= Document.getElementById("shap_sub");
 shape_sub.addEventListener("click", function() {
-    shapes = document.getElementById("shape").value;
+    shapes: string = document.getElementById("shape").value;
     if (shapes == "Sphere") {
         sph_dis.style.display = "block";
         cyl_dis.style.display = "none";
         cubo_dis.style.display= "none";
         cube_dis.style.display= "none";
         Document.getElementById("sphere_sub").onclick= function() {
-            let rad= parseFloat(document.getElementById("rad").value) || 0;
-            var mySphere = new Sphere(rad);
-            var sa= mySphere.sphere_tsa(rad);
-            var vol= mySphere.sphere_volume(rad);
+            let rad: number= parseFloat(document.getElementById("rad").value) || 0;
+            var mySphere: Shapes.Sphere = new Shapes.Sphere(rad);
+            var sa : number = mySphere.sphere_tsa(rad);
+            var vol: number= mySphere.sphere_volume(rad);
             output.innerHTML= `Surface area: ${sa}<br>Volume: ${vol}`;
             Window.alert(`Surface area: ${sa}\nVolume: ${vol}`);
         };
@@ -35,12 +35,12 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cyl_dis.style.display = "none";
         Document.getElementById("cube_sub").onclick= function() {
-            let side= Document.getElementById("side").value || 0; 
-            var myCube= new Cube(side);
-            var cub_tsa= myCube.cube_tsa(side);
-            var cub_lsa= myCube.cube_lsa(side);
-            var cub_vol= myCube.cube_volume(side);
-            var cub_dia= myCube.cube_diagonal(side);
+            let side: number= Document.getElementById("side").value || 0; 
+            var myCube: Shapes.Cube = new Shapes.Cube(side);
+            var cub_tsa: number= myCube.cube_tsa(side);
+            var cub_lsa: number= myCube.cube_lsa(side);
+            var cub_vol: number= myCube.cube_volume(side);
+            var cub_dia: number= myCube.cube_diagonal(side);
             output.innerHTML= `Total Surface area: ${cub_tsa}<br>Volume: ${cub_vol}<br>Lateral Surface area: ${cub_lsa}<br>Length of Diagonal: ${cub_dia}`;
             Window.alert(`Total Surface area: ${cub_tsa} \nVolume: ${cub_vol} \nLateral Surface area: ${cub_lsa} \nLength of Diagonal: ${cub_dia}`);
         };
@@ -51,14 +51,14 @@ shape_sub.addEventListener("click", function() {
         cyl_dis.style.display = "none";
         cube_dis.style.display= "none";
         Document.getElementById("cuboid_sub").onclick= function() {
-            let length = Document.getElementById("length").value || 0;
-            let breadth= Document.getElementById("breadth").value || 0;
-            let height = Document.getElementById("height").value || 0;
-            var myCuboid= new Cuboid(length, breadth, height);
-            var cbd_tsa= myCuboid.cuboid_tsa(length, breadth, height);
-            var cbd_lsa= myCuboid.cuboid_lsa(length, breadth, height);
-            var cbd_vol= myCuboid.cuboid_volume(length, breadth, height);
-            var cbd_dia= myCuboid.cuboid_diagonal(length, breadth, height);
+            let length : number= Document.getElementById("length").value || 0;
+            let breadth: number= Document.getElementById("breadth").value || 0;
+            let height : number= Document.getElementById("height").value || 0;
+            var myCuboid: Shapes.Cuboid= new Shapes.Cuboid(length, breadth, height);
+            var cbd_tsa: number= myCuboid.cuboid_tsa(length, breadth, height);
+            var cbd_lsa: number= myCuboid.cuboid_lsa(length, breadth, height);
+            var cbd_vol: number= myCuboid.cuboid_volume(length, breadth, height);
+            var cbd_dia: number= myCuboid.cuboid_diagonal(length, breadth, height);
             output.innerHTML= `Total Surface area: ${cbd_tsa}<br>Volume: ${cbd_vol}<br>Lateral Surface area: ${cbd_lsa}<br>Length of Diagonal: ${cbd_dia}`;
             Window.alert(`Total Surface area: ${cbd_tsa} \nVolume: ${cbd_vol} \nLateral Surface area: ${cbd_lsa} \nLength of Diagonal: ${cbd_dia}`);
         };
@@ -69,12 +69,12 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cube_dis.style.display= "none";
         Document.getElementById("cylinder_sub").onclick= function() {
-            let radis= Document.getElementById("radi").value || 0;
-            let  hei = Document.getElementById("hei").value || 0;
-            let myCylinder= new Cylinder(radis, hei);
-            var cyl_tsa= myCylinder.cylinder_tsa(radis, hei);
-            var cyl_csa= myCylinder.cylinder_csa(radis, hei);
-            var cyl_vol= myCylinder.cylinder_volume(radis, hei);
+            let radi: number= Document.getElementById("radi").value || 0;
+            let hei : number= Document.getElementById("hei").value || 0;
+            let myCylinder: Shapes.Cylinder= new Shapes.Cylinder(radi, hei);
+            var cyl_tsa: number= myCylinder.cylinder_tsa(radis, hei);
+            var cyl_csa: number= myCylinder.cylinder_csa(radis, hei);
+            var cyl_vol: number= myCylinder.cylinder_volume(radis, hei);
             output.innerHTML= `Total Surface area: ${cyl_tsa}<br>Volume: ${cyl_vol}<br>Curved Surface area: ${cyl_csa}`;
             Window.alert(`Total Surface area: ${cyl_tsa} \nVolume: ${cyl_vol} \nCurved Surface area: ${cyl_lsa}`);
         };
