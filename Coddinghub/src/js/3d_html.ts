@@ -21,7 +21,7 @@ shape_sub.addEventListener("click", function() {
         cubo_dis.style.display= "none";
         cube_dis.style.display= "none";
         Document.getElementById("sphere_sub").onclick= function() {
-            let rad: number= parseFloat(document.getElementById("rad").value) || 0;
+            let rad: number= Document.getElementById("rad").value || 0;
             var mySphere: Shapes.Sphere = new Shapes.Sphere(rad);
             var sa : number = mySphere.sphere_tsa();
             var vol: number= mySphere.sphere_volume();
