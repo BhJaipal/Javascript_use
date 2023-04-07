@@ -72,11 +72,11 @@ shape_sub.addEventListener("click", function() {
             let radi: number= Document.getElementById("radi").value || 0;
             let hei : number= Document.getElementById("hei").value || 0;
             let myCylinder: Shapes.Cylinder= new Shapes.Cylinder(radi, hei);
-            var cyl_tsa: number= myCylinder.cylinder_tsa();
+            var cyli_tsa: number= myCylinder.cylinder_tsa();
             var cyl_csa: number= myCylinder.cylinder_csa();
             var cyl_vol: number= myCylinder.cylinder_volume();
-            output.innerHTML= `Total Surface area: ${cyl_tsa}<br>Volume: ${cyl_vol}<br>Curved Surface area: ${cyl_csa}`;
-            Window.alert(`Total Surface area: ${cyl_tsa} \nVolume: ${cyl_vol} \nCurved Surface area: ${cyl_lsa}`);
+            output.innerHTML= `Total Surface area: ${cyli_tsa}<br>Volume: ${cyl_vol}<br>Curved Surface area: ${cyl_csa}`;
+            Window.alert(`Total Surface area: ${cyli_tsa} \nVolume: ${cyl_vol} \nCurved Surface area: ${cyl_lsa}`);
         };
     }
     else {
