@@ -1,6 +1,6 @@
 import Document from "document";
 import Window from "window";
-import * from "./3d";
+import * as Shapes from "./3d";
 
 let sph_dis = Document.getElementsByClassName("sphere")[0];
 let cube_dis = Document.getElementsByClassName("cube")[0];
