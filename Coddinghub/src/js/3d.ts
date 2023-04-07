@@ -83,17 +83,17 @@ class Cube {
 };
 
 class Sphere {
-    radius: number;
+    rad: number;
     constructor(radius: number) {
-        this.radius = radius;
+        this.rad = radius;
     }
     sphere_tsa(): number {
-        return 4 * pi * Math.pow(this.radius,2);
+        return 4 * pi * Math.pow(this.rad, 2);
         /* Surface area of sphere= 4*pi* (radius)^2
         */
     }
     sphere_volume(): number {
-        return Math.round(4/3 * pi * Math.pow(this.radius,3));
+        return Math.round(4/3 * pi * Math.pow(this.rad, 3));
         /* Volume of sphere= 4/3*pi*(radius)^3
         */
     }
@@ -108,25 +108,25 @@ class Sphere {
 
 class Cylinder {
     radius: number;
-    height: number;
-    constructor(radius: number, height: number) {
+    hei: number;
+    constructor(radius: number, heigh: number) {
         this.radius= radius;
-        this.height= height;
+        this.hei= heigh;
     }
     cylinder_tsa(): number {
-        return 2* pi* this.radius *(this.height + this.radius);
+        return 2* pi* this.radius *(this.hei + this.radius);
         /* Total Surface area of Cylinder = 
                 2*pi*radius *(height + radius)
         */
     }
     cylinder_csa(): number {
-        return 2* pi* this.radius* this.height;
+        return 2* pi* this.radius* this.hei;
         /* Curved Surface area of Cylinder = 
                         2*pi * radius *height
         */
     }
     cylinder_volume(): number {
-        return pi* Math.pow(this.radius,2)* this.height;
+        return pi* Math.pow(this.radius,2)* this.hei;
         /* Volume of Cylinder = 
                     pi * (radius)^2 * height
         */
