@@ -1,3 +1,5 @@
+import Window from "window";
+
 const pi= 22/7;
 class Cuboid {
     constructor(length1, breadth, height) {
@@ -158,6 +160,6 @@ while (true) {
             console.log("Only these 4 3D shapes are available");
             break;
     }
-    let cont = window.prompt("Do you want to continue? [Yn]: ");
+    let cont = Window.prompt("Do you want to continue? [Yn]: ");
     if (cont== "N" || cont== "n") {break;}
 }}
