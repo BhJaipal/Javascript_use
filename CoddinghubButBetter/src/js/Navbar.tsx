@@ -16,14 +16,16 @@ export default function Navbar() {
                 <li>
                     <Link to="/shapes">3d Shapes</Link>
                 </li>
+                <li>
+                    <Link to="/sign-in">Sign In</Link>
+                </li>
             </ul>
             <span id="name">&nbsp
                 <char>C</char><char>o</char><char>d</char><char>d</char><char>i</char><char>n</char><char>g</char>
-                <Link to="/login" style="color: blue; text-decoration: none"><b>Sign</b></Link>
                 <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <char>H</char><char>u</char><char>b</char>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Link to="/login" style="color: blue;text-decoration: none"><b>Up</b></Link></span>
+            </span>
         </nav>
         </BrowserRouter>
     )
