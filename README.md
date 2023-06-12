@@ -11,7 +11,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) 
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label&color=black)](https://github.com) 
 [![GitHub stars](https://img.shields.io/github/stars/BhJaipal/Javascript_use.svg?style=social&label=Star&maxAge=2592000)](https://github.com/BhJaipal/Javascript_use)
-[![TypeScript](https://img.shields.io/badge/TypeScript-FFFFFF?logo=typescript&logoColor=0000ff)](typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-FFFFFF?logo=typescript&logoColor=0000ff)](https://typescriptlang.org)
 ![Git](https://badgen.net/badge/icon/git?icon=git&label&color=black)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com)
