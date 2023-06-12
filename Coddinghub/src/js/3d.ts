@@ -1,6 +1,6 @@
 import Window from "window";
 
-const pi: number= 22/7;
+const Math.PI: number= 22/7;
 export class Cuboid {
     len: number;
     brea: number;
@@ -88,13 +88,13 @@ export class Sphere {
         this.rad = radius;
     }
     sphere_tsa(): number {
-        return 4 * pi * Math.pow(this.rad, 2);
-        /* Surface area of sphere= 4*pi* (radius)^2
+        return 4 * Math.PI * Math.pow(this.rad, 2);
+        /* Surface area of sphere= 4*Math.PI* (radius)^2
         */
     }
     sphere_volume(): number {
-        return Math.round(4/3 * pi * Math.pow(this.rad, 3));
-        /* Volume of sphere= 4/3*pi*(radius)^3
+        return Math.round(4/3 * Math.PI * Math.pow(this.rad, 3));
+        /* Volume of sphere= 4/3*Math.PI*(radius)^3
         */
     }
     execu(): void {
@@ -114,21 +114,21 @@ export class Cylinder {
         this.hei= heigh;
     }
     cylinder_tsa(): number {
-        return 2* pi* this.radius *(this.hei + this.radius);
+        return 2* Math.PI* this.radius *(this.hei + this.radius);
         /* Total Surface area of Cylinder = 
-                2*pi*radius *(height + radius)
+                2*Math.PI*radius *(height + radius)
         */
     }
     cylinder_csa(): number {
-        return 2* pi* this.radius* this.hei;
+        return 2* Math.PI* this.radius* this.hei;
         /* Curved Surface area of Cylinder = 
-                        2*pi * radius *height
+                        2*Math.PI * radius *height
         */
     }
     cylinder_volume(): number {
-        return pi* Math.pow(this.radius,2)* this.hei;
+        return Math.PI* Math.pow(this.radius,2)* this.hei;
         /* Volume of Cylinder = 
-                    pi * (radius)^2 * height
+                    Math.PI * (radius)^2 * height
         */
     }
     execu(): void {

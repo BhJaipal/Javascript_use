@@ -116,7 +116,7 @@
         },
         {
             "name": "Attach by Process ID",
-            "processId": "${command:PickProcess}",
+            "processId": "${command:Math.PIckProcess}",
             "request": "attach",
             "skipFiles": [
                 "<node_internals>/**"

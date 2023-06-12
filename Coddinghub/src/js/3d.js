@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var window_1 = require("window");
-var pi = 22 / 7;
+var Math.PI = 22 / 7;
 var Cuboid = /** @class */ (function () {
     function Cuboid(length1, breadth, height) {
         this.len = length1;
@@ -86,13 +86,13 @@ var Sphere = /** @class */ (function () {
         this.rad = radius;
     }
     Sphere.prototype.sphere_tsa = function () {
-        return 4 * pi * Math.pow(this.rad, 2);
-        /* Surface area of sphere= 4*pi* (radius)^2
+        return 4 * Math.PI * Math.pow(this.rad, 2);
+        /* Surface area of sphere= 4*Math.PI* (radius)^2
         */
     };
     Sphere.prototype.sphere_volume = function () {
-        return Math.round(4 / 3 * pi * Math.pow(this.rad, 3));
-        /* Volume of sphere= 4/3*pi*(radius)^3
+        return Math.round(4 / 3 * Math.PI * Math.pow(this.rad, 3));
+        /* Volume of sphere= 4/3*Math.PI*(radius)^3
         */
     };
     Sphere.prototype.execu = function () {
@@ -111,21 +111,21 @@ var Cylinder = /** @class */ (function () {
         this.hei = heigh;
     }
     Cylinder.prototype.cylinder_tsa = function () {
-        return 2 * pi * this.radius * (this.hei + this.radius);
+        return 2 * Math.PI * this.radius * (this.hei + this.radius);
         /* Total Surface area of Cylinder =
-                2*pi*radius *(height + radius)
+                2*Math.PI*radius *(height + radius)
         */
     };
     Cylinder.prototype.cylinder_csa = function () {
-        return 2 * pi * this.radius * this.hei;
+        return 2 * Math.PI * this.radius * this.hei;
         /* Curved Surface area of Cylinder =
-                        2*pi * radius *height
+                        2*Math.PI * radius *height
         */
     };
     Cylinder.prototype.cylinder_volume = function () {
-        return pi * Math.pow(this.radius, 2) * this.hei;
+        return Math.PI * Math.pow(this.radius, 2) * this.hei;
         /* Volume of Cylinder =
-                    pi * (radius)^2 * height
+                    Math.PI * (radius)^2 * height
         */
     };
     Cylinder.prototype.execu = function () {

@@ -20,7 +20,7 @@ function game() {
     window.alert("To bhaiyo aur beheno Kaun Banega Karorpati mai apka Swagat hai\nMai Amitabh Bachan ...");
     var Questions = [
         "Who was the first president of India?",
-        "What is the capital of France?",
+        "What is the caMath.PItal of France?",
         "Which is the longest river on earth?",
         "Who was the first person to step on moon?",
         "Which company has taken the responsibility to animate Demon Slayer?",
@@ -44,7 +44,7 @@ function game() {
         ["A. Ohio", "B. London", "C. Paris", "D. New York"],
         ["A. Amazon", "B. Nile", "C. Brahmaputra", "D. Sutlaj"],
         ["A. Laika", "B. Kalpana Chawla", "C. Buzz Aldrin", "D. Neil Armstrong"],
-        ["A. Ufotable", "B. Mappa", "C. Pierrot", "D. Madhouse"],
+        ["A. Ufotable", "B. Mappa", "C. Math.PIerrot", "D. Madhouse"],
         ["A. Garuda", "B. Mushaka", "C. Peacock", "D. Arawata"],
         ["A. Javascript", "B. Java", "C. C++", "D. Python"]
     ];
