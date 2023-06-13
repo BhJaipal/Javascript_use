@@ -1,41 +1,45 @@
-import * as React from 'react';
+import * as React from "react";
 import $ from "jquery.js";
-import Sphere from './sphere.js';
-import Cube from './cube.js';
-import Cuboid from './cuboid.js';
-import Cylinder from './cylinder.js';
-import Cone from './cone.js';
+import Sphere from "./sphere.jsx";
+import Cube from "./cube.jsx";
+import Cuboid from "./cuboid.jsx";
+import Cylinder from "./cylinder.jsx";
+import Cone from "./cone.jsx";
+import { useState, Component } from "react";
 
-export default class ThreeD extends React.Component{
-    ShapeSubmit() {
+export default function ThreeD() {
+    function ShapeSubmit() {
         switch ($("#shape").val) {
             case "Sphere":
-                return (<Sphere />);
+                return <Sphere />;
             case "Cube":
-                return (<Cube />);
+                return <Cube />;
             case "Cuboid":
-                return (<Cuboid />);
+                return <Cuboid />;
             case "Cylinder":
-                return (<Cylinder />);
+                return <Cylinder />;
             case "Cone":
-                return (<Cone />);
+                return <Cone />;
             default:
                 Window.prototype.alert("Please select any one");
         }
     }
-    render() {
-        return (
-            <React.Fragments>
-                <Label for="shape">Choose a 3D shape</Label>
-                <Select id="shape">
-                    <Option value="Sphere"></Option>
-                    <Option value="Cube"></Option>
-                    <Option value="Cuboid"></Option>
-                    <Option value="Cylinder"></Option>
-                    <Option value="Cone"></Option>
-                </Select>
-                <button onClick={ShapeSubmit}></button>
-            </React.Fragments>
-        )
+    const [output, setOutput] = useState("");
+    function setOutput(out) {
+        output = out;
     }
+    return (
+        <React.Fragments>
+            <Label for="shape">Choose a 3D shape</Label>
+            <Select id="shape">
+                <Option value="Sphere"></Option>
+                <Option value="Cube"></Option>
+                <Option value="Cuboid"></Option>
+                <Option value="Cylinder"></Option>
+                <Option value="Cone"></Option>
+            </Select>
+            <Button:submit onClick={ShapeSubmit}></Button:submit>
+            <div id="output">{output}</div>
+        </React.Fragments>
+    );
 }
