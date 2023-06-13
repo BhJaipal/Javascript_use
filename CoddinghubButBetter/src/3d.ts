@@ -21,30 +21,30 @@
       this.brea = breadth;
       this.heig = height;
     }
-    cuboid_tsa(length2, breadth2, height2) {
-      return 2 * (length2 * breadth2 + breadth2 * height2 + length2 * height2);
+    TotalSurfaceArea(): number {
+      return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
       // Total Surface area of Cuboid = 
       2 * (l * b + b * h + l * h)
     }
-    cuboid_lsa(length2, breadth2, height2) {
-      return 2 * height2 * (length2 + breadth2);
+    LateralSurfaceArea(): number {
+      return 2 * this.heig * (this.Diagonallen + this.brea);
       // Lateral Surface area of Cuboid = 
       //  2 * (l + b) *h
 
     }
-    cuboid_volume(length2, breadth2, height2) {
-      return length2 * height2 * breadth2;
+    Volume(): number {
+      return this.len * this.heig * this.brea;
       // Volume of Cuboid = l*b*h
 
     }
-    cuboid_diagonal(length2, breadth2, height2) {
+    Diagonal(): number {
       return Math.sqrt(
-        Math.pow(length2, 2) + Math.pow(breadth2, 2) + Math.pow(height2, 2)
+        Math.pow(this.len, 2) + Math.pow(this.brea, 2) + Math.pow(this.heig, 2)
       ).toFixed(2);
       // Diagonal of Cuboid = 
-                                                                                                                                                                                                                  // square root of(l ^ 2 + b ^ 2 + h ^ 2)
+      // square root of(l ^ 2 + b ^ 2 + h ^ 2)
     }
-    execu() {
+    /*execu() {
       console.log("*************** Cuboid ***************");
       console.log(
         "Total Surface area of Cuboid: ",
@@ -75,32 +75,32 @@
         this.cuboid_diagonal(this.len, this.brea, this.heig) +
         "\n********************************"
       );
-    }
+    }*/
   }
 
   class Cube {
     constructor(side) {
       this.side = side;
     }
-    cube_volume(side) {
-      return Math.pow(side, 3);
+    Volume(): number {
+      return Math.pow(this.side, 3);
       // Volume of Cube = a ^ 3
     }
-    cube_lsa(side) {
-      return 4 * side * side;
+    LateralSurfaceArea(): number {
+      return 4 * this.side * this.side;
       // Lateral Surface area of Cube = 
       // 4 * a ^ 2
     }
-    cube_tsa(side) {
-      return 6 * side * side;
+    TotalSurfaceArea(): number {
+      return 6 * this.side * this.side;
       // Total Surface area of Cube = 
       // 6 * a ^ 2
     }
-    cube_diagonal(side) {
-      return side * 1.732;
+    Diagonal(): number {
+      return this.side * 1.732;
       // Diagonal of Cube = a * root(3)
     }
-    execu() {
+    /*execu() {
       console.log("*************** Cube ***************");
       console.log("Total Surface area of Cube: ", this.cube_tsa(this.side));
       console.log("Lateral Surface area of Cube: ", this.cube_lsa(this.side));
@@ -118,22 +118,22 @@
         this.cube_diagonal(this.side) +
         "\n********************************"
       );
-    }
+    }*/
   }
 
   class Sphere {
     constructor(radius) {
       this.radius = radius;
     }
-    sphere_tsa(radius) {
-      return 4 * Math.PI * Math.pow(radius, 2);
+    SurfaceArea(): number {
+      return 4 * Math.PI * Math.pow(this.radius, 2);
       // Surface area of sphere= 4*Math.PI* (radius)^2
     }
-    sphere_volume(radius) {
-      return Math.round((4 / 3) * Math.PI * Math.pow(radius, 3));
+    Volume(): number {
+      return Math.round((4 / 3) * Math.PI * Math.pow(this.radius, 3));
       // Volume of sphere= 4/3*Math.PI*(radius)^3
     }
-    execu() {
+    /*execu() {
       console.log("*************** Sphere ***************");
       console.log(
         "Total Surface area of Sphere: ",
@@ -149,7 +149,7 @@
         this.sphere_volume(this.radius) +
         "\n********************************"
       );
-    }
+    }*/
   }
 
   class Cylinder {
@@ -157,22 +157,22 @@
       this.radius = radius;
       this.height = height;
     }
-    cylinder_tsa(radius, height) {
-      return 2 * Math.PI * radius * (height + radius);
+    TotalSurfaceArea(): number {
+      return 2 * Math.PI * this.radius * (this.height + this.radius);
       // Total Surface area of Cylinder = 
       // 2 * Math.PI * radius * (height + radius)
     }
-    cylinder_csa(radius, height) {
-      return 2 * Math.PI * radius * height;
+    CurvedSurfaceArea(): number {
+      return 2 * Math.PI * this.radius * this.height;
       // Curved Surface area of Cylinder = 
       // 2 * Math.PI * radius * height
     }
-    cylinder_volume(radius, height) {
-      return Math.PI * Math.pow(radius, 2) * height;
+    Volume(): number {
+      return Math.PI * Math.pow(this.radius, 2) * this.height;
       // Volume of Cylinder = 
       // Math.PI * (radius) ^ 2 * height
     }
-    execu() {
+    /*execu() {
       console.log("*************** Cylinder ***************");
       console.log(
         "Total Surface area of Cuboid: ",
@@ -197,7 +197,7 @@
         this.cylinder_volume(this.radius, this.height) +
         "\n******************************"
       );
-    }
+    }*/
   }
   class Cone {
     constructor(radius: number, height: number) {

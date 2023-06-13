@@ -1,7 +1,28 @@
 import * as React from 'react';
 import $ from "jquery.js";
+import Sphere from './sphere.js';
+import Cube from './cube.js';
+import Cuboid from './cuboid.js';
+import Cylinder from './cylinder.js';
+import Cone from './cone.js';
 
-class ThreeD extends React.Component{
+export default class ThreeD extends React.Component{
+    ShapeSubmit() {
+        switch ($("#shape").val) {
+            case "Sphere":
+                return (<Sphere />);
+            case "Cube":
+                return (<Cube />);
+            case "Cuboid":
+                return (<Cuboid />);
+            case "Cylinder":
+                return (<Cylinder />);
+            case "Cone":
+                return (<Cone />);
+            default:
+                Window.prototype.alert("Please select any one");
+        }
+    }
     render() {
         return (
             <React.Fragments>
@@ -13,6 +34,7 @@ class ThreeD extends React.Component{
                     <Option value="Cylinder"></Option>
                     <Option value="Cone"></Option>
                 </Select>
+                <button onClick={ShapeSubmit}></button>
             </React.Fragments>
         )
     }
