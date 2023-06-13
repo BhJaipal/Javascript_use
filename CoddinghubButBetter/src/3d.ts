@@ -7,8 +7,8 @@ class Cuboid {
   cuboid_tsa(length2, breadth2, height2) {
     return 2 * (length2 * breadth2 + breadth2 * height2 + length2 * height2);
     /* Total Surface area of Cuboid = 
-                                                                           2 * (l*b + b*h + l*h)
-                                                                                   */
+      2 * (l*b + b*h + l*h)
+    */
   }
   cuboid_lsa(length2, breadth2, height2) {
     return 2 * height2 * (length2 + breadth2);
