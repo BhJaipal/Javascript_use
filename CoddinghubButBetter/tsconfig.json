@@ -19,7 +19,8 @@
         "compilerOptions": {
             "checkJs": false,
             "allowImportingTsExtensions": true,
-            "allowJs": tru
+            "allowJs": true,
+            ""
         }
     },
     "compileOnSave": true,
