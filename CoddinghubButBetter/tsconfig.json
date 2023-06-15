@@ -21,7 +21,7 @@
         "rootDir": "./src",
         "strict": true,
         "strictFunctionTypes": true,
-        "strictNullChecks": false
+        "strictNullChecks": true,
     },
     "ts-node": {
         "typeCheck": true,
