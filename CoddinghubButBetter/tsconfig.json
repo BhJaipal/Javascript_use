@@ -22,7 +22,8 @@
         "strict": true,
         "strictFunctionTypes": true,
         "strictNullChecks": true,
-        "tsBuildInfoFile": ".tsbuildinfo"
+        "tsBuildInfoFile": ".tsbuildinfo",
+        
     },
     "ts-node": {
         "typeCheck": true,
