@@ -3,7 +3,7 @@
         "jsx": "react-jsx",
         "allowJs": false,
         "alwaysStrict": true,
-        "checkJs": false
+        "checkJs": true,
     },
     "ts-node": {
         "typeCheck": true,
