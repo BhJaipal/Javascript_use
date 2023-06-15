@@ -25,7 +25,8 @@
             "jsxImportSource": "react",
             "jsx": "react",
             "jsxFactory": "ReactDOM.render",
-            "jsxFragmentFactory": "React.Fragment"
+            "jsxFragmentFactory": "React.Fragment",
+            
         }
     },
     "compileOnSave": true,
