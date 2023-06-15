@@ -41,7 +41,7 @@
             "strictFunctionTypes": true,
             "strictNullChecks": true,
             "tsBuildInfoFile": ".tsbuildinfo",
-            ""
+            "watch": 
         }
     },
     "compileOnSave": true,
