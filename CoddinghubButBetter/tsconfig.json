@@ -44,7 +44,7 @@
             "watch": true,
             "watchDirectory": "dynamicPriorityPolling",
             "allowUnusedLabels": false 
-            ""
+            "allowUnreachableCode": 
         }
     },
     "compileOnSave": true,
