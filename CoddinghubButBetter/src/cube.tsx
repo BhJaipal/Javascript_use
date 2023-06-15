@@ -1,1 +1,1 @@
-imr
+import React from 'react';
