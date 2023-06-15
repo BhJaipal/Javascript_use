@@ -27,7 +27,7 @@
             "jsxFactory": "ReactDOM.render",
             "jsxFragmentFactory": "React.Fragment",
             "module": "ESNext",
-            ""
+            "moduleDetection": 
         }
     },
     "compileOnSave": true,
