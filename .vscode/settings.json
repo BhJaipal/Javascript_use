@@ -12,7 +12,8 @@
             "diagnostics": false
         },
         "debug.saveBeforeStart": "allEditorsInActiveGroup",
-        "breadcrumbs.showFiles": 
+        "breadcrumbs.showFiles": true,
+        
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
