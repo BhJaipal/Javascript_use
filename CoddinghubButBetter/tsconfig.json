@@ -1,6 +1,3 @@
 {
-    "compileOnSave": {
-        "name": "Launch Angular",
-        "type": "chrome",
-        "request": "launch",
+    "compileOn
 }
