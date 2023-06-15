@@ -11,7 +11,7 @@
             "folding": false,
             "diagnostics": false
         },
-        ""
+        "debug.saveBeforeStart": 
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
