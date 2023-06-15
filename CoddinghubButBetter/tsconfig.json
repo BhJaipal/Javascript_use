@@ -25,5 +25,5 @@
         "./*.ts"
     ]
     },
-    "buildOptions": {""}
+    "buildOptions": {"assumeChangesOnlyAffectDirectDependencies": false}
 }
