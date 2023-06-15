@@ -5,6 +5,7 @@ import strToNum from "./type-strict.jsx";
 
 export default class Cube{
     calculate() {
-        let cube= new ThreeD.Cuboid(strToNum($("side").val))
+        let cube= new ThreeD.Cuboid(strToNum($("side").val));
+        
     }
 }
