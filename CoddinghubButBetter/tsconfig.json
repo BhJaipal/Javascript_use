@@ -40,7 +40,7 @@
             "strict": true,
             "strictFunctionTypes": true,
             "strictNullChecks": true,
-            "types": []
+            ""
         }
     },
     "compileOnSave": true,
