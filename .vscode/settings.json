@@ -1,6 +1,7 @@
 {
     "[typescriptreact]": {
-        "editor.autoIndent": "advanced"
+        "editor.autoIndent": "advanced",
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
