@@ -40,7 +40,7 @@
             "strict": true,
             "strictFunctionTypes": true,
             "strictNullChecks": true,
-            ""
+            "tsBuildInfoFile": ".tsbuildinfo"
         }
     },
     "compileOnSave": true,
