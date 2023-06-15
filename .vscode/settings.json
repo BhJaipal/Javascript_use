@@ -18,7 +18,7 @@
         "editor.suggest.showColors": true,
         "editor.formatOnPaste": true,
         "workbench.editor.languageDetection": true,
-        ""
+        "javascript.preferences.jsxAttributeCompletionStyle": 
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
