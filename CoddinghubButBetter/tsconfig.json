@@ -21,7 +21,7 @@
             "allowImportingTsExtensions": true,
             "allowJs": true,
             "alwaysStrict": true,
-            ""
+            "composite": 
         }
     },
     "compileOnSave": true,
