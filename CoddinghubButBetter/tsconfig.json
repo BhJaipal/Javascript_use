@@ -28,7 +28,7 @@
             "jsxFragmentFactory": "React.Fragment",
             "module": "ESNext",
             "moduleDetection": "auto",
-            ""
+            "noImplicitUseStrict": false
         }
     },
     "compileOnSave": true,
