@@ -12,7 +12,7 @@
         "jsxFragmentFactory": "React.Fragment",
         "noImplicitUseStrict": false,
         "outDir": "./src",
-        ""
+        "noImplicitAny": 
     },
     "ts-node": {
         "typeCheck": true,
