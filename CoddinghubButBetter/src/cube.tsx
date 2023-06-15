@@ -1,2 +1,2 @@
 import React from 'react';
-import $ from "./jquery.js"
+import $ from "./jquery.js";
