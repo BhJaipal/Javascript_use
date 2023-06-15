@@ -29,7 +29,7 @@
         "breadcrumbs.showConstructors": true,
         "breadcrumbs.showInterfaces": true,
         "breadcrumbs.showModules": true,
-        ""
+        "breadcrumbs.showNull": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
