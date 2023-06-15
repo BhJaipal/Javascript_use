@@ -1,3 +1,3 @@
 import React from 'react';
 import $ from "./jquery.js";
-import 
+import * as 
