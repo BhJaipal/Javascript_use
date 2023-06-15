@@ -17,7 +17,8 @@
         "editor.formatOnSave": true,
         "editor.suggest.showColors": true,
         "editor.formatOnPaste": true,
-        "workbench.editor.languageDetection": true
+        "workbench.editor.languageDetection": true,
+        
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
