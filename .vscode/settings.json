@@ -17,7 +17,7 @@
         "editor.formatOnSave": true,
         "editor.suggest.showColors": true,
         "editor.formatOnPaste": true,
-        "editor.language.colorizedBracketPairs":null
+        "editor.language.colorizedBr
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
