@@ -12,4 +12,4 @@ export default class Cube{
     render () {
         return (
             <div className="cube">
-                <Label></Label>
+                <Label>Side: </Label>
