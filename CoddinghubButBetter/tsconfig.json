@@ -10,7 +10,7 @@
         "allowUnreachableCode": false,
         "jsxFactory": "ReactDOM.render",
         "jsxFragmentFactory": "React.Fragment",
-        ""
+        "noImplicitUseStrict": false
     },
     "ts-node": {
         "typeCheck": true,
