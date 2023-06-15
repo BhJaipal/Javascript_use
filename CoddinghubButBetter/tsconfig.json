@@ -38,7 +38,8 @@
             "reactNamespace": "React",
             "rootDir": "./src",
             "strict": true,
-            "strictFunctionTypes": false
+            "strictFunctionTypes": true,
+            
         }
     },
     "compileOnSave": true,
