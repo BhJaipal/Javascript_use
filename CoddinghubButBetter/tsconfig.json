@@ -32,7 +32,8 @@
             "noImplicitAny": true,
             "noStrictGenericChecks": false,
             "noUnusedParameters": true,
-            "outDir": "./src"
+            "outDir": "./src",
+            ""
         }
     },
     "compileOnSave": true,
