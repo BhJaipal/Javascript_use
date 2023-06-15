@@ -40,7 +40,7 @@
         "typescript.preferences.importModuleSpecifierEnding": "js",
         "typescript.suggest.jsdoc.generateReturns": true
     },
-    "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib",
+    "typescript.tsdk": "../node_modules/typescript/lib",
     "workbench.startupEditor": "welcomePage",
     "[typescript]": {
         "anycode.language.features": {
