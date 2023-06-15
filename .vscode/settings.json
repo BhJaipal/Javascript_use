@@ -15,7 +15,7 @@
         "breadcrumbs.showFiles": true,
         "editor.cursorStyle": "line",
         "editor.formatOnSave": true,
-        
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
