@@ -13,7 +13,8 @@
         "noImplicitUseStrict": false,
         "outDir": "./src",
         "noImplicitAny": true,
-        "module": "ESNext"
+        "module": "ESNext",
+        ""
     },
     "ts-node": {
         "typeCheck": true,
