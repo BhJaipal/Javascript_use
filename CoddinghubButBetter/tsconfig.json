@@ -22,7 +22,7 @@
         "strict": true,
         "strictFunctionTypes": true,
         "strictNullChecks": true,
-        
+        ""
     },
     "ts-node": {
         "typeCheck": true,
