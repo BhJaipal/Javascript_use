@@ -47,6 +47,6 @@ function Home() {
 }
 function About() {
     return (
-        div.
+        <div className="about "></div>
     )
 }
