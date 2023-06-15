@@ -21,7 +21,8 @@
         "javascript.preferences.jsxAttributeCompletionStyle": "auto",
         "javascript.suggest.completeJSDocs": true,
         "javascript.suggest.enabled": true,
-        "editor.suggest.showKeywords": true
+        "editor.suggest.showKeywords": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
