@@ -16,5 +16,6 @@
     },
     "compileOnSave": true,
     "typeAcquisition": {"include": [
-        "./*.js", "./*.jsx"]}
+        "./*.js", 
+        "./*.jsx"]}
 }
