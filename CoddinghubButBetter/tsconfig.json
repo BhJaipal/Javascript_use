@@ -34,7 +34,7 @@
             "noUnusedParameters": true,
             "outDir": "./src",
             "noUnusedLocals": true,
-            "plu
+            "pluhin
         }
     },
     "compileOnSave": true,
