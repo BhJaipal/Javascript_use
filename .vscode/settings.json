@@ -43,6 +43,15 @@
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib",
     "workbench.startupEditor": "welcomePage",
     "[typescript]": {
-        ""
+        "anycode.language.features": {
+            "completions": true,
+            "definitions": true,
+            "references": true,
+            "highlights": true,
+            "outline": true,
+            "workspaceSymbols": true,
+            "folding": false,
+            "diagnostics": false
+        }
     }
 }
