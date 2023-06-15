@@ -23,7 +23,7 @@
         "strictFunctionTypes": true,
         "strictNullChecks": true,
         "tsBuildInfoFile": ".tsbuildinfo",
-        "allowArbitraryExtensions": 
+        ""
     },
     "ts-node": {
         "typeCheck": true,
