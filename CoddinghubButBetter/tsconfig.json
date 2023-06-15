@@ -34,7 +34,8 @@
             "noUnusedParameters": true,
             "outDir": "./src",
             "noUnusedLocals": true,
-            "pretty": true
+            "pretty": true,
+            ""
         }
     },
     "compileOnSave": true,
