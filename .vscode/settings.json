@@ -23,7 +23,8 @@
         "javascript.suggest.enabled": true,
         "editor.suggest.showKeywords": true,
         "breadcrumbs.showVariables": true,
-        "breadcrumbs.showFunctions": true
+        "breadcrumbs.showFunctions": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
