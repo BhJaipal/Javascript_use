@@ -4,7 +4,7 @@
         "allowJs": false,
         "alwaysStrict": true,
         "checkJs": true,
-        "allowImportingTsExtensions": 
+        "allowImportingTsExtensions": true
     },
     "ts-node": {
         "typeCheck": true,
