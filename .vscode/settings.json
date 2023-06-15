@@ -34,7 +34,8 @@
         "breadcrumbs.showTypeParameters": true,
         "editor.lineNumbers": "on",
         "editor.suggest.showSnippets": true,
-        "javascript.suggest.jsdoc.generateReturns": true
+        "javascript.suggest.jsdoc.generateReturns": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
