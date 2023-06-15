@@ -9,4 +9,5 @@ export default class Cube{
         let out= `Total Surface Area: ${cube.TotalSurfaceArea()}\nLateral Surface Area: ${cube.LateralSurfaceArea()}\nVolume: ${cube.Volume()}\nLength of Diagonal: ${cube.Diagonal()}`;
         setOutput(out);
     }
+    ren
 }
