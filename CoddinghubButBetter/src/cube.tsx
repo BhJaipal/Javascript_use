@@ -13,7 +13,7 @@ export default class Cube{
         return (
             <div className="cube">
                 <Label htmlFor="side">Side: </Label>
-                <Input:number id="side"></Input:>
+                <Input:number id="side"></Input:number>
             </div>
         )
     }
