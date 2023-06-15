@@ -42,7 +42,8 @@
             "strictNullChecks": true,
             "tsBuildInfoFile": ".tsbuildinfo",
             "watch": true,
-            "watchDirectory": "dynamicPriorityPolling"
+            "watchDirectory": "dynamicPriorityPolling",
+            ""
         }
     },
     "compileOnSave": true,
