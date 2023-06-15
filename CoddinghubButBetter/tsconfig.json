@@ -14,7 +14,7 @@
         "outDir": "./src",
         "noImplicitAny": true,
         "module": "ESNext",
-        ""
+        "noUnusedLocals": false
     },
     "ts-node": {
         "typeCheck": true,
