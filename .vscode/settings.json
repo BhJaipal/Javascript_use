@@ -35,7 +35,8 @@
         "editor.lineNumbers": "on",
         "editor.suggest.showSnippets": true,
         "javascript.suggest.jsdoc.generateReturns": true,
-        "typescript.preferences.jsxAttributeCompletionStyle": "auto"
+        "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
