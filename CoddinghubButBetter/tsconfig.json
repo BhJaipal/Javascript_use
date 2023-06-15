@@ -43,7 +43,8 @@
             "tsBuildInfoFile": ".tsbuildinfo",
             "watch": true,
             "watchDirectory": "dynamicPriorityPolling",
-            "allowUnusedLabels": 
+            "allowUnusedLabels": false 
+            ""
         }
     },
     "compileOnSave": true,
