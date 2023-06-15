@@ -38,4 +38,6 @@ export default function App() {
         </BrowserRouter>
     )
 }
-function Home() 
+function Home() {
+    
+}
