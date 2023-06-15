@@ -16,7 +16,8 @@
         "module": "ESNext",
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "pretty": true
+        "pretty": true,
+        ""
     },
     "ts-node": {
         "typeCheck": true,
