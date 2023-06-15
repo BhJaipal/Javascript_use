@@ -31,7 +31,7 @@
             "noImplicitUseStrict": false,
             "noImplicitAny": true,
             "noStrictGenericChecks": false,
-            ""
+            "noUnusedParameters": false
         }
     },
     "compileOnSave": true,
