@@ -35,7 +35,8 @@
             "outDir": "./src",
             "noUnusedLocals": true,
             "pretty": true,
-            "reactNamespace": "React"
+            "reactNamespace": "React",
+            ""
         }
     },
     "compileOnSave": true,
