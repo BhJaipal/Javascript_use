@@ -19,7 +19,7 @@
         "compilerOptions": {
             "checkJs": false,
             "allowImportingTsExtensions": true,
-            "allowArbitraryExtensions": )
+            ""
         }
     },
     "compileOnSave": true,
