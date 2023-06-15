@@ -41,7 +41,7 @@
             "strictFunctionTypes": true,
             "strictNullChecks": true,
             "tsBuildInfoFile": ".tsbuildinfo",
-            "verbatimModuleSyntax": 
+            
         }
     },
     "compileOnSave": true,
