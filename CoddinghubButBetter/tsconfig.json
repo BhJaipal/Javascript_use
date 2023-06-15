@@ -24,6 +24,5 @@
         "./*.tsx",
         "./*.ts"
     ]
-    },
-    "watchOptions": {"watchDirectory": ""}
+    }
 }
