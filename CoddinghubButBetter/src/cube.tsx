@@ -1,3 +1,3 @@
 import React from 'react';
 import $ from "./jquery.js";
-import * as ThreeD from ".þ3"
+import * as ThreeD from ".3d."
