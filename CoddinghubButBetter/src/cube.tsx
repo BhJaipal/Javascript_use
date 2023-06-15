@@ -1,2 +1,2 @@
 import React from 'react';
-import $ from "j"
+import $ from "jquery-3.7.0.js "
