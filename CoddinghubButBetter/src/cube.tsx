@@ -4,5 +4,5 @@ import * as ThreeD from "./3d.jsx";
 import strToNum from "./type-strict.jsx";
 
 export default class Cube{
-    calculate()
+    calculate() {}
 }
