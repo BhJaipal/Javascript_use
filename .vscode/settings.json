@@ -32,7 +32,7 @@
         "breadcrumbs.showNull": true,
         "breadcrumbs.showEnums": true,
         "breadcrumbs.showTypeParameters": true,
-        "editor.lineNumbers": 
+        "editor.lineNumbers": "on"
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
