@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "jsx": "react-jsx",
-        "allowJs": false
+        "allowJs": false,
+        
     }
 }
