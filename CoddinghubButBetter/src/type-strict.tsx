@@ -1,4 +1,4 @@
-import * as Window from 
+import * as Window from "wind"
 const alphabets= ("ABCDEFGHIJKLMNOPQRSTUVWXYZ+×÷_=/").split("");
 export default function strToNum(string: string) {
     let argList = string.toUpperCase().split("");
