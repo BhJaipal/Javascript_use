@@ -12,14 +12,7 @@
         "jsxFragmentFactory": "React.Fragment",
         "noImplicitUseStrict": false,
         "outDir": "./src",
-        "noImplicitAny": {
-            "name": "Launch Angular",
-            "type": "chrome",
-            "request": "launch",
-            "preLaunchTask": "npm: start",
-            "url": "http://localhost:4200/",
-            "webRoot": "${workspaceFolder}"
-        }
+        "noImplicitAny": 
     },
     "ts-node": {
         "typeCheck": true,
