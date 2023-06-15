@@ -18,7 +18,8 @@
         "noUnusedParameters": true,
         "pretty": true,
         "reactNamespace": "React",
-        "rootDir": "./src"
+        "rootDir": "./src",
+        ""
     },
     "ts-node": {
         "typeCheck": true,
