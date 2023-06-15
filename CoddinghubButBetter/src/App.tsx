@@ -45,4 +45,4 @@ function Home() {
         </div>
     )
 }
-fuAbout()
+function About()
