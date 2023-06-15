@@ -10,7 +10,8 @@
             "workspaceSymbols": true,
             "folding": false,
             "diagnostics": false
-        }
+        },
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
