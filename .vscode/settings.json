@@ -14,7 +14,7 @@
         "debug.saveBeforeStart": "allEditorsInActiveGroup",
         "breadcrumbs.showFiles": true,
         "editor.cursorStyle": "line",
-        "editor.formatOnSave": false
+        "editor.formatOnSave": t
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
