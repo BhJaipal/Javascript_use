@@ -17,5 +17,6 @@
     "compileOnSave": true,
     "typeAcquisition": {"include": [
         "./*.js", 
-        "./*.jsx"]}
+        "./*.jsx",
+        ]}
 }
