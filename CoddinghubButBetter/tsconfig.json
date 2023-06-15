@@ -6,7 +6,8 @@
         "checkJs": true,
         "allowImportingTsExtensions": true,
         "jsxImportSource": "react",
-        "allowUnusedLabels": 
+        "allowUnusedLabels": false,
+        
     },
     "ts-node": {
         "typeCheck": true,
