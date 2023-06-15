@@ -5,7 +5,7 @@ export default function strToNum(string: string) {
     for (var i in argList) {
         if (alphabets.includes(i)) {
             ans = false;
-            return Wins(new TypeError("Cannot change String " + string + " to Number, it returns NaN"));
+            return Window(new TypeError("Cannot change String " + string + " to Number, it returns NaN"));
             break;
         } else {
             ans = true;
