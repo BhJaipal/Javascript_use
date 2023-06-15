@@ -36,7 +36,8 @@
             "noUnusedLocals": true,
             "pretty": true,
             "reactNamespace": "React",
-            "rootDir": "./src"
+            "rootDir": "./src",
+            ""
         }
     },
     "compileOnSave": true,
