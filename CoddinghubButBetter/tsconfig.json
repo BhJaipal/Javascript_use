@@ -20,7 +20,7 @@
         "reactNamespace": "React",
         "rootDir": "./src",
         "strict": true,
-        
+        ""
     },
     "ts-node": {
         "typeCheck": true,
