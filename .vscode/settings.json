@@ -26,7 +26,7 @@
         "breadcrumbs.showFunctions": true,
         "breadcrumbs.showClasses": true,
         "breadcrumbs.showEnumMembers": true,
-        ""
+        "breadcrumbs.showConstructors": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
