@@ -37,7 +37,8 @@
             "pretty": true,
             "reactNamespace": "React",
             "rootDir": "./src",
-            "strict": false
+            "strict": true,
+            
         }
     },
     "compileOnSave": true,
