@@ -39,7 +39,8 @@
             "rootDir": "./src",
             "strict": true,
             "strictFunctionTypes": true,
-            "strictNullChecks": false
+            "strictNullChecks": true,
+            ""
         }
     },
     "compileOnSave": true,
