@@ -26,7 +26,7 @@
             "jsx": "react",
             "jsxFactory": "ReactDOM.render",
             "jsxFragmentFactory": "React.Fragment",
-            "module": ""
+            "module": "E"
         }
     },
     "compileOnSave": true,
