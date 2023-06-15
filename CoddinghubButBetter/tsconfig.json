@@ -32,7 +32,7 @@
             "noImplicitAny": true,
             "noStrictGenericChecks": false,
             "noUnusedParameters": true,
-            
+            ""
         }
     },
     "compileOnSave": true,
