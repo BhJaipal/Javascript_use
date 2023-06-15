@@ -23,7 +23,6 @@
             "alwaysStrict": true,
             "charset": "UTF-8",
             "jsxImportSource": [
-                
             ]
         }
     },
