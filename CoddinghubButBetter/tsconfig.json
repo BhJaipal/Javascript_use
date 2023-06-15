@@ -8,7 +8,7 @@
         "jsxImportSource": "react",
         "allowUnusedLabels": false,
         "allowUnreachableCode": false,
-        "jsxFactory": "RE"
+        "jsxFactory": "React"
     },
     "ts-node": {
         "typeCheck": true,
