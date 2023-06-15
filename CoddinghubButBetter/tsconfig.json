@@ -21,7 +21,8 @@
             "allowImportingTsExtensions": true,
             "allowJs": true,
             "alwaysStrict": true,
-            "charset": "UTF-8"
+            "charset": "UTF-8",
+            
         }
     },
     "compileOnSave": true,
