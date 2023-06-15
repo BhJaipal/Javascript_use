@@ -20,7 +20,7 @@
             "checkJs": false,
             "allowImportingTsExtensions": true,
             "allowJs": true,
-            ""
+            "alwaysStrict": 
         }
     },
     "compileOnSave": true,
