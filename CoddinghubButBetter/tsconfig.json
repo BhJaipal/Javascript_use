@@ -9,6 +9,7 @@
         "compiler": "typescript",
         "ignore": [
             "(?:^|/)node_modules/"
-        ]
+        ],
+        
     }
 }
