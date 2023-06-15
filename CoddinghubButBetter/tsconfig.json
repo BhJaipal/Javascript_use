@@ -33,7 +33,7 @@
             "noStrictGenericChecks": false,
             "noUnusedParameters": true,
             "outDir": "./src",
-            ""
+            "noUnusedLocals": false
         }
     },
     "compileOnSave": true,
