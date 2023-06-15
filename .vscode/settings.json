@@ -34,7 +34,7 @@
         "breadcrumbs.showTypeParameters": true,
         "editor.lineNumbers": "on",
         "editor.suggest.showSnippets": true,
-        "editor.linkedEditing": false
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
