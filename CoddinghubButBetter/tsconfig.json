@@ -46,7 +46,7 @@
             "allowUnusedLabels": false,
             "allowUnreachableCode": false,
             "watchFile": "dynamicPriorityPolling",
-            "typeRoots": []
+            "typeRoots": ""
         }
     },
     "compileOnSave": true,
