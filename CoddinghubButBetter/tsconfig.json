@@ -24,6 +24,7 @@
         "strictNullChecks": true,
         "tsBuildInfoFile": ".tsbuildinfo",
         "watch": true,
+        ""
     },
     "ts-node": {
         "typeCheck": true,
