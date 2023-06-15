@@ -16,7 +16,8 @@
         "editor.cursorStyle": "line",
         "editor.formatOnSave": true,
         "editor.suggest.showColors": true,
-        "editor.formatOnPaste": false
+        "editor.formatOnPaste": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
