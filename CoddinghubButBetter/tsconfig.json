@@ -18,7 +18,8 @@
         "scopeDir": "First of: `tsconfig.json` \"src\" if specified, directory containing `tsconfig.json`, or cwd if no `tsconfig.json` is loaded.",
         "compilerOptions": {
             "checkJs": false,
-            "allowImportingTsExtensions": true
+            "allowImportingTsExtensions": true,
+            ""
         }
     },
     "compileOnSave": true,
