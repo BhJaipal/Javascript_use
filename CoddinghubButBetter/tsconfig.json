@@ -4,6 +4,7 @@
         "allowJs": false,
         "alwaysStrict": true,
         "checkJs": true,
+        ""
     },
     "ts-node": {
         "typeCheck": true,
