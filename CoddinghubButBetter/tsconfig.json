@@ -6,6 +6,7 @@
     },
     "ts-node": {
         "typeCheck": true,
-        "compiler": "typescript"
+        "compiler": "typescript",
+        ""
     }
 }
