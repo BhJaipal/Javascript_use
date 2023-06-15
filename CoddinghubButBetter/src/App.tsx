@@ -41,7 +41,7 @@ export default function App() {
 function Home() {
     return (
         <div>
-            h3.
+            <h3>Hell</h3>
         </div>
     )
 }
