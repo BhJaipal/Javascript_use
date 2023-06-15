@@ -22,7 +22,7 @@
         "javascript.suggest.completeJSDocs": true,
         "javascript.suggest.enabled": true,
         "editor.suggest.showKeywords": true,
-        ""
+        "breadcrumbs.showVariables": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
