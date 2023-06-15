@@ -15,5 +15,5 @@
         "scopeDir": "First of: `tsconfig.json` \"src\" if specified, directory containing `tsconfig.json`, or cwd if no `tsconfig.json` is loaded.",
     },
     "compileOnSave": true,
-    "typeAcquisition": {"include": []}
+    "typeAcquisition": {"include": ["."]}
 }
