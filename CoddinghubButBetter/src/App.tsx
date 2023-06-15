@@ -40,6 +40,8 @@ export default function App() {
 }
 function Home() {
     return (
-        <div></div>
+        <div>
+            h3.
+        </div>
     )
 }
