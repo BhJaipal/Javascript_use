@@ -13,7 +13,7 @@
         "noImplicitUseStrict": false,
         "outDir": "./src",
         "noImplicitAny": true,
-        ""
+        "module": ""
     },
     "ts-node": {
         "typeCheck": true,
