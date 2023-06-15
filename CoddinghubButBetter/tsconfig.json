@@ -5,7 +5,7 @@
         "alwaysStrict": true,
         "checkJs": true,
         "allowImportingTsExtensions": true,
-        ""
+        "jsxImportSource": "react"
     },
     "ts-node": {
         "typeCheck": true,
