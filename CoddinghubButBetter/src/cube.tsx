@@ -11,7 +11,7 @@ export default class Cube{
     }
     render () {
         return (
-            <div clas>
+            <div class="cub">
                 
             </div>
         )
