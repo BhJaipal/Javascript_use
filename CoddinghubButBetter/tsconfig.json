@@ -23,7 +23,8 @@
             "alwaysStrict": true,
             "charset": "UTF-8",
             "jsxImportSource": "react",
-            "jsx": "react"
+            "jsx": "react",
+            ""
         }
     },
     "compileOnSave": true,
