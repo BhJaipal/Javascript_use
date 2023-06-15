@@ -25,7 +25,7 @@
         "tsBuildInfoFile": ".tsbuildinfo",
         "watch": true,
         "watchDirectory": "dynamicPriorityPolling",
-        ""
+        "watchFile": 
     },
     "ts-node": {
         "typeCheck": true,
