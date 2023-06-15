@@ -11,7 +11,7 @@
         "jsxFactory": "ReactDOM.render",
         "jsxFragmentFactory": "React.Fragment",
         "noImplicitUseStrict": false,
-        ""
+        "outDir": ""
     },
     "ts-node": {
         "typeCheck": true,
