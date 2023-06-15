@@ -41,5 +41,5 @@
         "typescript.suggest.jsdoc.generateReturns": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib",
-    "workbench.startupEditor": 
+    "workbench.startupEditor": "welcomePage"
 }
