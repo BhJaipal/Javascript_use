@@ -1,3 +1,4 @@
 {
+    
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
