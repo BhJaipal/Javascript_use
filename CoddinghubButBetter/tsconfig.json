@@ -5,6 +5,7 @@
         "alwaysStrict": true
     },
     "ts-node": {
-        "typeCheck": true
+        "typeCheck": true,
+        
     }
 }
