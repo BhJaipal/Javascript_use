@@ -15,7 +15,8 @@
         "noImplicitAny": true,
         "module": "ESNext",
         "noUnusedLocals": true,
-        "noUnusedParameters": false
+        "noUnusedParameters": true,
+        
     },
     "ts-node": {
         "typeCheck": true,
