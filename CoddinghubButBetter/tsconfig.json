@@ -29,7 +29,8 @@
             "module": "ESNext",
             "moduleDetection": "auto",
             "noImplicitUseStrict": false,
-            "noImplicitAny": true
+            "noImplicitAny": true,
+            ""
         }
     },
     "compileOnSave": true,
