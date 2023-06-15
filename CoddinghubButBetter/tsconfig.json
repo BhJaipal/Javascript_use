@@ -4,5 +4,7 @@
         "allowJs": false,
         "alwaysStrict": true
     },
-    "ts-node": {""}
+    "ts-node": {
+        ""
+    }
 }
