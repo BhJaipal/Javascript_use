@@ -15,13 +15,17 @@
 })(typeof window !== "undefined" ? window : this, function (window, noGlobal) {
   "use strict";
 
-  class Cuboid {
+  interface Shape{
+    TotalSurfaceArea(): number,
+    Volume: number
+  }
+  class Cuboid implements Shape{
     constructor(length1, breadth, height) {
       this.len = length1;
       this.brea = breadth;
       this.heig = height;
     }
-    TotalSurfaceArea(): number {
+    TotalSurfaceArea(){
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
       // Total Surface area of Cuboid = 
       2 * (l * b + b * h + l * h)
@@ -78,7 +82,7 @@
     }*/
   }
 
-  class Cube {
+  class Cube implements Shape {
     constructor(side) {
       this.side = side;
     }
@@ -121,11 +125,11 @@
     }*/
   }
 
-  class Sphere {
+  class Sphere implements Shape{
     constructor(radius) {
       this.radius = radius;
     }
-    SurfaceArea(): number {
+    TotalSurfaceArea(): number {
       return 4 * Math.PI * Math.pow(this.radius, 2);
       // Surface area of sphere= 4*Math.PI* (radius)^2
     }
@@ -152,7 +156,7 @@
     }*/
   }
 
-  class Cylinder {
+  class Cylinder implements Shape{
     constructor(radius, height) {
       this.radius = radius;
       this.height = height;
@@ -199,7 +203,7 @@
       );
     }*/
   }
-  class Cone {
+  class Cone implements Shape {
     constructor(radius: number, height: number) {
       this.radius = radius;
       this.height = height;
