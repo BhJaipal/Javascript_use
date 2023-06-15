@@ -7,6 +7,6 @@ export default class Cube{
     calculate() {
         let cube= new ThreeD.Cuboid(strToNum($("side").val));
         let out= `Total Surface Area: ${cuboid.TotalSurfaceArea()}\nLateral Surface Area: ${cuboid.LateralSurfaceArea()}\nVolume: ${cuboid.Volume()}\nLength of Diagonal: ${cuboid.Diagonal()}`;
-        
+        SetOutput 
     }
 }
