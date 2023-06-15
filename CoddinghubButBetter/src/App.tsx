@@ -46,5 +46,7 @@ function Home() {
     )
 }
 function About() {
-    return 
+    return (
+        div.
+    )
 }
