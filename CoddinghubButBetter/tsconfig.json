@@ -5,7 +5,7 @@
         "alwaysStrict": true,
         "checkJs": true,
         "allowImportingTsExtensions": true,
-        "esModuleInterop": false
+        
     },
     "ts-node": {
         "typeCheck": true,
