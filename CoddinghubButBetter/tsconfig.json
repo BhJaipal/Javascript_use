@@ -24,7 +24,8 @@
             "charset": "UTF-8",
             "jsxImportSource": "react",
             "jsx": "react",
-            "jsxFactory": "ReactDOM.render"
+            "jsxFactory": "ReactDOM.render",
+            ""
         }
     },
     "compileOnSave": true,
