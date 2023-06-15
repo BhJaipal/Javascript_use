@@ -33,7 +33,8 @@
         "breadcrumbs.showEnums": true,
         "breadcrumbs.showTypeParameters": true,
         "editor.lineNumbers": "on",
-        "editor.suggest.showSnippets": true
+        "editor.suggest.showSnippets": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
