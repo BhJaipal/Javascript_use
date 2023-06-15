@@ -12,6 +12,6 @@
         ],
         "pretty": true,
         "preferTsExts": true,
-        "require": []
+        "require": [""]
     }
 }
