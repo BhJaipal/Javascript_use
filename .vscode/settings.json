@@ -38,7 +38,7 @@
         "typescript.preferences.jsxAttributeCompletionStyle": "auto",
         "typescript.suggest.completeJSDocs": true,
         "typescript.preferences.importModuleSpecifierEnding": "js",
-        ""
+        "typescript.suggest.jsdoc.generateReturns": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
