@@ -17,7 +17,8 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "pretty": true,
-        "reactNamespace": "React"
+        "reactNamespace": "React",
+        ""
     },
     "ts-node": {
         "typeCheck": true,
