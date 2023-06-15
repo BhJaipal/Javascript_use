@@ -45,4 +45,6 @@ function Home() {
         </div>
     )
 }
-function About() {}
+function About() {
+    return 
+}
