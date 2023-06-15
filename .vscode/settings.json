@@ -30,7 +30,7 @@
         "breadcrumbs.showInterfaces": true,
         "breadcrumbs.showModules": true,
         "breadcrumbs.showNull": true,
-        ""
+        "breadcrumbs.showEnums": true
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
