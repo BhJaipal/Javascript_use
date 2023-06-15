@@ -29,7 +29,7 @@
             "module": "ESNext",
             "moduleDetection": "auto",
             "noImplicitUseStrict": false,
-            "noImplicitAny": 
+            "noImplicitAny": true
         }
     },
     "compileOnSave": true,
