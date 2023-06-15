@@ -8,7 +8,7 @@
         "jsxImportSource": "react",
         "allowUnusedLabels": false,
         "allowUnreachableCode": false,
-        "jsxFactory": "ReactDOM."
+        "jsxFactory": "ReactDOM.render"
     },
     "ts-node": {
         "typeCheck": true,
