@@ -22,7 +22,9 @@
             "allowJs": true,
             "alwaysStrict": true,
             "charset": "UTF-8",
-            "jsxImportSource": 
+            "jsxImportSource": [
+                
+            ]
         }
     },
     "compileOnSave": true,
