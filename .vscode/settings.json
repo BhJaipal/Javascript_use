@@ -31,7 +31,8 @@
         "breadcrumbs.showModules": true,
         "breadcrumbs.showNull": true,
         "breadcrumbs.showEnums": true,
-        "breadcrumbs.showTypeParameters": true
+        "breadcrumbs.showTypeParameters": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
