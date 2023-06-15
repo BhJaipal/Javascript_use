@@ -28,7 +28,8 @@
         "breadcrumbs.showEnumMembers": true,
         "breadcrumbs.showConstructors": true,
         "breadcrumbs.showInterfaces": true,
-        "breadcrumbs.showModules": true
+        "breadcrumbs.showModules": true,
+        ""
     },
     "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
 }
