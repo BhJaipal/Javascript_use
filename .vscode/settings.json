@@ -40,5 +40,6 @@
         "typescript.preferences.importModuleSpecifierEnding": "js",
         "typescript.suggest.jsdoc.generateReturns": true
     },
-    "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib"
+    "typescript.tsdk": "<path to your folder>/node_modules/typescript/lib",
+    
 }
