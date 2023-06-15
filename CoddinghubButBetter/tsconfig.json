@@ -30,7 +30,7 @@
             "moduleDetection": "auto",
             "noImplicitUseStrict": false,
             "noImplicitAny": true,
-            ""
+            "noStrictGenericChecks": false
         }
     },
     "compileOnSave": true,
