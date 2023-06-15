@@ -9,7 +9,8 @@
         "allowUnusedLabels": false,
         "allowUnreachableCode": false,
         "jsxFactory": "ReactDOM.render",
-        "jsxFragmentFactory": "React.Fragment"
+        "jsxFragmentFactory": "React.Fragment",
+        
     },
     "ts-node": {
         "typeCheck": true,
