@@ -14,3 +14,4 @@ export default class Cube{
             <div className="cube">
                 <Label htmlFor="side">Side: </Label>
             </div>
+            
