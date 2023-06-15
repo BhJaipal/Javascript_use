@@ -5,6 +5,6 @@ import strToNum from "./type-strict.jsx";
 
 export default class Cube{
     calculate() {
-        let cube= Thre
+        let cube= ThreeD.
     }
 }
