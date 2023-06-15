@@ -18,6 +18,7 @@
     "typeAcquisition": {"include": [
         "./*.js", 
         "./*.jsx",
-        "./*tsx"
+        "./*.tsx" 
+        
         ]}
 }
