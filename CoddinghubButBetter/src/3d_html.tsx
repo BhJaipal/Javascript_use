@@ -6,7 +6,7 @@ import Cuboid from "./cuboid.jsx";
 import Cylinder from "./cylinder.jsx";
 import Cone from "./cone.jsx";
 import { useState, Component } from "react";
-import * as Window from "windo"
+import * as Window from "window"
 
 export default function ThreeD() {
     function ShapeSubmit() {
