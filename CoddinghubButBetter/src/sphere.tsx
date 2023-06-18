@@ -11,7 +11,7 @@ export default class Sphere {
     render () {
         return (
             <div className="sphere">
-                <Input:number i></Input:number>
+                <Input:number id=""></Input:number>
             </div>
         )
     }
