@@ -58,5 +58,6 @@
         "workbench.editor.languageDetection": true
     },
     "editor.snippetSuggestions": "inline",
-    "editor.formatOnSave": 
+    "editor.formatOnSave": true,
+    
 }
