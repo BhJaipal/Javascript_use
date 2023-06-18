@@ -59,5 +59,7 @@
     },
     "editor.snippetSuggestions": "inline",
     "editor.formatOnSave": true,
-    "typescript-web.dts.versions": {}
+    "typescript-web.dts.versions": {
+        "vu"
+    }
 }
