@@ -1,25 +1,10 @@
-(function (global, factory) {
-  "use strict";
-  if (typeof module === "object" && typeof module.exports === "object") {
-    module.exports = global.document
-      ? factory(global, true)
-      : function (w) {
-        if (!w.document) {
-          throw new Error("It requires window with a document");
-        }
-        return factory(w);
-      };
-  } else {
-    factory(global);
-  }
-})(typeof window !== "undefined" ? window : this, function (window, noGlobal) {
-  "use strict";
-
-  interface Shape{
-    TotalSurfaceArea(): number,
-    Volume: number
-  }
-  class Cuboid implements Shape{
+"use strict";
+interface Shape{
+  TotalSurfaceArea(): number,
+  Volume: number
+}
+export default const ThreeD= {
+  Cuboid: class implements Shape{
     constructor(length1, breadth, height) {
       this.len = length1;
       this.brea = breadth;
@@ -80,9 +65,9 @@
         "\n********************************"
       );
     }*/
-  }
+  },
 
-  class Cube implements Shape {
+  Cube: class implements Shape {
     constructor(side) {
       this.side = side;
     }
@@ -123,9 +108,9 @@
         "\n********************************"
       );
     }*/
-  }
+  },
 
-  class Sphere implements Shape{
+  Sphere: class implements Shape{
     constructor(radius) {
       this.radius = radius;
     }
@@ -222,7 +207,7 @@
       // Volume = 1/3* Math.PI * radius^2* height
     }
   }
-  function execut() {
+  execut: function() {
     while (true) {
       let choice;
       choice = window.prompt(
@@ -257,4 +242,4 @@
       }
     }
   }
-});
+};
