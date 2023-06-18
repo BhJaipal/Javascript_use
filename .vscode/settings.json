@@ -64,7 +64,6 @@
         "vue-router": "4.0.8",
         "typescript": "5.1"
     },
-    "[vue]": {
-        ""
-    }
+    "[vue]": 
+
 }
