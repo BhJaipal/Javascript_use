@@ -9,7 +9,7 @@ export default class Sphere {
     }
     render () {
         return (
-            <div className="spher">
+            <div className="sphere">
             </div>
         )
     }
