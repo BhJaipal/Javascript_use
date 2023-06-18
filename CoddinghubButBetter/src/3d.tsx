@@ -139,7 +139,7 @@ export default const ThreeD= {
         "\n********************************"
       );
     }*/
-  }
+  },
 
   Cylinder: class implements Shape{
     constructor(radius, height) {
