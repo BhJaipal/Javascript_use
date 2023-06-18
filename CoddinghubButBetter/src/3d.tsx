@@ -207,7 +207,7 @@ export default const ThreeD= {
       // Volume = 1/3* Math.PI * radius^2* height
     }
   }
-  execut: function() {
+  execute: function() {
     while (true) {
       let choice;
       choice = window.prompt(
