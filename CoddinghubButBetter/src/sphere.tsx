@@ -11,7 +11,7 @@ export default class Sphere {
     render () {
         return (
             <div className="sphere">
-                <Label htm></Label>
+                <Label htmlFor=""></Label>
                 <Input:number id="rad"></Input:number>
             </div>
         )
