@@ -141,7 +141,7 @@ export default const ThreeD= {
     }*/
   }
 
-  Cylinderclass implements Shape{
+  Cylinder: class implements Shape{
     constructor(radius, height) {
       this.radius = radius;
       this.height = height;
