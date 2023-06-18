@@ -187,7 +187,7 @@ export default const ThreeD= {
         "\n******************************"
       );
     }*/
-  }
+  },
   class Cone implements Shape {
     constructor(radius: number, height: number) {
       this.radius = radius;
