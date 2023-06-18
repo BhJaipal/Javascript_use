@@ -3,7 +3,7 @@ interface Shape{
   TotalSurfaceArea(): number,
   Volume: number
 }
-export default  ThreeD= {
+export default ThreeD= {
   Cuboid: class implements Shape{
     constructor(length1, breadth, height) {
       this.len = length1;
