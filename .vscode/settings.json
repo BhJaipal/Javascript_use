@@ -9,8 +9,7 @@
             "outline": true,
             "workspaceSymbols": true,
             "folding": false,
-            "diagnostics": false,
-
+            "diagnostics": false
         },
         "debug.saveBeforeStart": "allEditorsInActiveGroup",
         "breadcrumbs.showFiles": true,
