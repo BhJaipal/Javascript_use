@@ -39,7 +39,7 @@
         "typescript.suggest.completeJSDocs": true,
         "typescript.preferences.importModuleSpecifierEnding": "js",
         "typescript.suggest.jsdoc.generateReturns": true,
-        
+        ""
     },
     "typescript.tsdk": "../node_modules/typescript/lib",
     "workbench.startupEditor": "welcomePage",
