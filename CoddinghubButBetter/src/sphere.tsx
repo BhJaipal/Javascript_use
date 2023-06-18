@@ -3,7 +3,7 @@ import $ from "./jquery.js";
 
 export default class Sphere{
     calculate() {
-        let sphere= 
+        let sphere= new 
         let out= `Total Surface Area: ${sphere.TotalSurfaceArea()}\nVolume: ${sphere.Volume()}`;
     }
 }
