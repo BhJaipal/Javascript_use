@@ -3,6 +3,6 @@ import $ from "./jquery.js";
 
 export default class Sphere{
     calculate() {
-        let 
+
     }
 }
