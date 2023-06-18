@@ -10,7 +10,6 @@ export default class Sphere {
     render () {
         return (
             <div>
-                
             </div>
         )
     }
