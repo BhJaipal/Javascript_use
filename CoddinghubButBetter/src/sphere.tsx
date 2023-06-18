@@ -6,7 +6,7 @@ export default class Sphere {
     calculate() {
         let sphere = new ThreeD.Sphere(strToNum($("#rad").val));
         let out = `Total Surface Area: ${sphere.TotalSurfaceArea()}\nVolume: ${sphere.Volume()}`;
-        
+        set
     }
     render () {
         return (
