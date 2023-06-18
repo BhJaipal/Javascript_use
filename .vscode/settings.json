@@ -55,8 +55,7 @@
             "diagnostics": false
         },
         "typescript.preferences.jsxAttributeCompletionStyle": "auto",
-        "workbench.editor.languageDetection": true,
-        ""
+        "workbench.editor.languageDetection": true
     },
     "editor.snippetSuggestions": "inline",
     "editor.formatOnSave": true,
