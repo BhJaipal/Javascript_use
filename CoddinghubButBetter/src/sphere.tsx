@@ -11,7 +11,7 @@ export default class Sphere {
     render () {
         return (
             <div className="sphere">
-                in
+                input
             </div>
         )
     }
