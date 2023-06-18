@@ -4,7 +4,7 @@ import ThreeD from "./3d.jsx"
 
 export default class Sphere {
     calculate() {
-        let sphere = new ThreeD.Sp
+        let sphere = new ThreeD.Spher
         let out = `Total Surface Area: ${sphere.TotalSurfaceArea()}\nVolume: ${sphere.Volume()}`;
     }
 }
