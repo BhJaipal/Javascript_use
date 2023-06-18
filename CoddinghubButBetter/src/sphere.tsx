@@ -7,5 +7,11 @@ export default class Sphere {
         let sphere = new ThreeD.Sphere(strToNum($("#rad").val));
         let out = `Total Surface Area: ${sphere.TotalSurfaceArea()}\nVolume: ${sphere.Volume()}`;
     }
-    ren
+    render () {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }
