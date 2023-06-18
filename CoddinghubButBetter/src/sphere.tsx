@@ -1,4 +1,4 @@
 import * as React from "react";
 import $ from "./jquery.js";
 
-export default class 
+export default class Spher
