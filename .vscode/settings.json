@@ -54,6 +54,6 @@
             "folding": false,
             "diagnostics": false
         },
-        "typescript.preferences.jsxAttributeCompletionStyle": 
+        "typescript.preferences.jsxAttributeCompletionStyle": "auto"
     }
 }
