@@ -57,5 +57,6 @@
         "typescript.preferences.jsxAttributeCompletionStyle": "auto",
         "workbench.editor.languageDetection": true
     },
-    "editor.snippetSuggestions": "inline"
+    "editor.snippetSuggestions": "inline",
+    ""
 }
