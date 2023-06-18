@@ -3,6 +3,6 @@ import $ from "./jquery.js";
 
 export default class Sphere{
     calculate() {
-        let out= `Total Surface Area: ${sphere.TotalSurfaceArea()}\nLateral Surface Area: ${cuboid.LateralSur)}\nVolume: ${cuboid.Volume()}`;
+        let out= `Total Surface Area: ${sphere.TotalSurfaceArea()}\\nVolume: ${cuboid.Volume()}`;
     }
 }
