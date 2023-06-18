@@ -60,6 +60,6 @@
     "editor.snippetSuggestions": "inline",
     "editor.formatOnSave": true,
     "typescript-web.dts.versions": {
-        "vue": 
+        "vue": "3.0.11"
     }
 }
