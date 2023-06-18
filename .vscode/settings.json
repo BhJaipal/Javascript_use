@@ -62,6 +62,6 @@
     "typescript-web.dts.versions": {
         "vue": "3.0.11",
         "vue-router": "4.0.8",
-        "typ"
+        "typescript"
     }
 }
