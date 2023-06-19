@@ -132,7 +132,7 @@ export default ThreeD = {
    */
   Sphere: class implements Shape {
     /**
-     * @param {number} radius 
+     * @param {number} radius
      */
     constructor(radius) {
       this.radius = radius;
