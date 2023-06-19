@@ -13,6 +13,7 @@ export default class Sphere {
             <div className="sphere">
                 <Label htmlFor="rad">Radius: </Label>
                 <Input:number id="rad"></Input:number>
+                
             </div>
         )
     }
