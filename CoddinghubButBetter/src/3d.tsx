@@ -244,6 +244,7 @@ export default ThreeD = {
       return (Math.PI * Math.pow(this.radius, 2) * this.height) / 3;
       // Volume = 1/3* Math.PI * radius^2* height
     }
+    
   },
   execute: function () {
     while (true) {
