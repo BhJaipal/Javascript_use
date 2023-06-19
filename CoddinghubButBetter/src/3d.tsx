@@ -165,7 +165,7 @@ export default ThreeD = {
   },
 
   /** 
-   * @class
+   * @class @
    */
   Cylinder: class implements Shape {
     /**
