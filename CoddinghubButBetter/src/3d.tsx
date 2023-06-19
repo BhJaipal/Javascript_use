@@ -11,7 +11,7 @@ export default ThreeD = {
     /**
      * 
      * @param {number} number
-     * @param {} number
+     * @param {number} numb
      * @param {number} height
      */
     constructor(length, breadth, height) {
