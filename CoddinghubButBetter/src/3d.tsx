@@ -10,7 +10,9 @@ export default ThreeD= {
       this.brea = breadth;
       this.heig = height;
     }
-    
+    /**
+     * @param 
+     */
     TotalSurfaceArea(){
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
       // Total Surface area of Cuboid = 
