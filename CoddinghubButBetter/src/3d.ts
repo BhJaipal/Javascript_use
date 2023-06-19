@@ -248,6 +248,7 @@ export default ThreeD = {
      * @example: 
      * * newCone= new Cone(7, 24);
      * * newCone.TotalSurfaceArea()
+     * 682
      * 
      */
   },
