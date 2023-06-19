@@ -168,7 +168,11 @@ export default ThreeD = {
    * @class @link
    */
   Cylinder: class implements Shape {
-    /** */
+    /**
+     * 
+     * @param radius 
+     * @param height 
+     */
     constructor(radius, height) {
       this.radius = radius;
       this.height = height;
