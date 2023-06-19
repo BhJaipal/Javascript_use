@@ -247,7 +247,7 @@ export default ThreeD = {
     /**
      * @example: 
      * * newCone= new Cone(7, 24);
-     * * 
+     * * newCone.
      */
   },
   execute: function () {
