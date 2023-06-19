@@ -225,7 +225,7 @@ export default ThreeD = {
   Cone: class implements Shape {
     /**
      * @param {number} number
-     * @param {height} number
+     * @param {number} number
      */
     constructor(radius: number, height: number) {
       this.radius = radius;
