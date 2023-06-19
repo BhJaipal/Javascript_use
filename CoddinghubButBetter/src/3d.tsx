@@ -5,7 +5,7 @@ interface Shape {
 }
 export default ThreeD = {
   /**
-   * @class 
+   * @class Cuboid 
    */
   Cuboid: class implements Shape {
     constructor(length1, breadth, height) {
