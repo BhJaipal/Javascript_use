@@ -5,23 +5,23 @@ interface Shape {
 }
 export default ThreeD = {
   /**
-   * @class Cuboid @link
+   * @class @link
    */
   Cuboid: class implements Shape {
     /**
      * 
-     * @param {number} length
-     * @param {number} breadth 
-     * @param {number} height 
+     * @param {length1} number
+     * @param {breadth} number
+     * @param {height} number
      */
-    constructor(length, breadth, height) {
-      this.len = length;
+    constructor(length1, breadth, height) {
+      this.len = length1;
       this.brea = breadth;
       this.heig = height;
     }
     /**
      * @param {}
-     * @returns {number}
+     * @return {number}
      */
     TotalSurfaceArea() {
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
@@ -80,7 +80,13 @@ export default ThreeD = {
     }*/
   },
 
+  /**
+   * @class @link
+   */
   Cube: class implements Shape {
+    /**
+     * @param {side} number
+     */
     constructor(side) {
       this.side = side;
     }
@@ -123,7 +129,13 @@ export default ThreeD = {
     }*/
   },
 
+  /**
+   * @class @link
+   */
   Sphere: class implements Shape {
+    /**
+     * @param {radius} number
+     */
     constructor(radius) {
       this.radius = radius;
     }
@@ -154,6 +166,9 @@ export default ThreeD = {
     }*/
   },
 
+  /** 
+   * @class @link
+   */
   Cylinder: class implements Shape {
     constructor(radius, height) {
       this.radius = radius;
@@ -201,7 +216,15 @@ export default ThreeD = {
       );
     }*/
   },
+
+  /**
+   * @class @link
+   */
   Cone: class implements Shape {
+    /**
+     * @param {radius} number
+     * @param {height} number
+     */
     constructor(radius: number, height: number) {
       this.radius = radius;
       this.height = height;
