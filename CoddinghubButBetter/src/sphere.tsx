@@ -13,7 +13,7 @@ export default class Sphere {
             <div className="sphere">
                 <Label htmlFor="rad">Radius: </Label>
                 <Input:number id="rad"></Input:number>
-                <Button:button 9nClick={calculate}>Submit</Button:button>
+                <Button:button onClick={calculate}>Submit</Button:button>
             </div>
         )
     }
