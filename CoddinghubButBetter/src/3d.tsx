@@ -20,7 +20,7 @@ export default ThreeD = {
       this.heig = height;
     }
     /**
-     * @param }
+     * 
      * @return {number}
      */
     TotalSurfaceArea() {
