@@ -8,7 +8,12 @@ export default ThreeD = {
    * @class Cuboid @link
    */
   Cuboid: class implements Shape {
-    
+    /**
+     * 
+     * @param length1 
+     * @param breadth 
+     * @param height 
+     */
     constructor(length1, breadth, height) {
       this.len = length1;
       this.brea = breadth;
