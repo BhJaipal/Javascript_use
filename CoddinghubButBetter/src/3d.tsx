@@ -10,12 +10,12 @@ export default ThreeD = {
   Cuboid: class implements Shape {
     /**
      * 
-     * @param {length1} number
-     * @param {breadth 
-     * @param height 
+     * @param {number} length
+     * @param {number} breadth 
+     * @param {number} height 
      */
-    constructor(length1, breadth, height) {
-      this.len = length1;
+    constructor(length, breadth, height) {
+      this.len = length;
       this.brea = breadth;
       this.heig = height;
     }
