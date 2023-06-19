@@ -281,4 +281,3 @@ export default ThreeD = {
     }
   }
 };
-ThreeD.Cone(4, 4)
