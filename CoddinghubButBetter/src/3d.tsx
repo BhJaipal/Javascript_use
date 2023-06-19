@@ -169,7 +169,7 @@ export default ThreeD = {
    */
   Cylinder: class implements Shape {
     /**
-     * @param {} radius 
+     * @param {number} radius 
      * @param {} height 
      */
     constructor(radius, height) {
