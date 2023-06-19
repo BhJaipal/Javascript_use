@@ -83,7 +83,7 @@ export default ThreeD = {
    */
   Cube: class implements Shape {
     /**
-     * @param {numbe} side
+     * @param {number} side
      */
     constructor(side) {
       this.side = side;
