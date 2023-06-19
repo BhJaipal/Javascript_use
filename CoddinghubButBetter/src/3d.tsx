@@ -1,19 +1,19 @@
 "use strict";
-interface Shape{
+interface Shape {
   TotalSurfaceArea(): number,
   Volume: number
 }
-export default ThreeD= {
-  Cuboid: class implements Shape{
+export default ThreeD = {
+  Cuboid: class implements Shape {
     constructor(length1, breadth, height) {
       this.len = length1;
       this.brea = breadth;
       this.heig = height;
     }
     /**
-     * @param 
+     * @param {}
      */
-    TotalSurfaceArea(){
+    TotalSurfaceArea() {
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
       // Total Surface area of Cuboid = 
       2 * (l * b + b * h + l * h)
@@ -113,7 +113,7 @@ export default ThreeD= {
     }*/
   },
 
-  Sphere: class implements Shape{
+  Sphere: class implements Shape {
     constructor(radius) {
       this.radius = radius;
     }
@@ -144,7 +144,7 @@ export default ThreeD= {
     }*/
   },
 
-  Cylinder: class implements Shape{
+  Cylinder: class implements Shape {
     constructor(radius, height) {
       this.radius = radius;
       this.height = height;
@@ -210,7 +210,7 @@ export default ThreeD= {
       // Volume = 1/3* Math.PI * radius^2* height
     }
   },
-  execute: function() {
+  execute: function () {
     while (true) {
       let choice;
       choice = window.prompt(
