@@ -250,7 +250,9 @@ export default ThreeD = {
      * * newCone.TotalSurfaceArea()
      * 682
      * * newCone.CurvedSurfaceArea()
-     * 5
+     * 528
+     * * newCone.Volume()
+     * 
      */
   },
   execute: function () {
