@@ -10,7 +10,7 @@ export default ThreeD = {
   Cuboid: class implements Shape {
     /**
      * 
-     * @param {length1} number
+     * @param {} number
      * @param {breadth} number
      * @param {number} height
      */
