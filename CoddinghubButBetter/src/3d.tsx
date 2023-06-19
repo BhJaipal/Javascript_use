@@ -281,4 +281,4 @@ export default ThreeD = {
     }
   }
 };
-ThreeD.
+ThreeD.Cuboid()
