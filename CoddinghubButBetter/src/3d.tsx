@@ -245,7 +245,7 @@ export default ThreeD = {
       // Volume = 1/3* Math.PI * radius^2* height
     }
     /**
-     * @emapl
+     * @exapl
      */
   },
   execute: function () {
