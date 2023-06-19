@@ -249,6 +249,7 @@ export default ThreeD = {
      * * newCone= new Cone(7, 24);
      * * newCone.TotalSurfaceArea()
      * 682
+     * * newCone.CurvedSurfaceArea()
      * 
      */
   },
