@@ -12,7 +12,7 @@ export default ThreeD = {
      * 
      * @param {length1} number
      * @param {breadth} number
-     * @param {number} height 
+     * @param {number} height
      */
     constructor(length1, breadth, height) {
       this.len = length1;
