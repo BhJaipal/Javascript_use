@@ -12,7 +12,7 @@ export default ThreeD = {
     }
     /**
      * @param {}
-     * @returns {n}
+     * @returns {number}
      */
     TotalSurfaceArea() {
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
