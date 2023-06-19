@@ -4,7 +4,7 @@ interface Shape {
   Volume: number
 }
 export default ThreeD = {
-  
+  /*
   Cuboid: class implements Shape {
     constructor(length1, breadth, height) {
       this.len = length1;
