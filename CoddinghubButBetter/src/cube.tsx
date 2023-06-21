@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from "./jquery.js";
-import ThreeD from "./3d.jsx";
+import ThreeD from "./3d.js";
 import strToNum from "./type-strict.jsx";
 
 export default class Cube{
@@ -14,6 +14,7 @@ export default class Cube{
             <div className="cube">
                 <Label htmlFor="side">Side: </Label>
                 <Input:number id="side"></Input:number>
+                <Button:button onClick={calculate}>Submit</Button:button>
             </div>
         )
     }

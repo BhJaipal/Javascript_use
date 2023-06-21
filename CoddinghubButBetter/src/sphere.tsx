@@ -1,6 +1,7 @@
 import * as React from "react";
 import $ from "./jquery.js";
-import ThreeD from "./3d.tsx"
+import ThreeD from "./3d.ts"
+import strToNum from "./type-strict.jsx";
 
 export default class Sphere {
     calculate() {

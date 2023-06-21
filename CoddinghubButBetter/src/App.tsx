@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ThreeD from "./3d_html.jsx";
+import SignIn from "./sign-in.jsx";
 
 export default function App() {
     return (
@@ -23,16 +24,16 @@ export default function App() {
             </ul>
             <h3>Codding hub</h3>
         </nav>
-        <Route from="/">
+        <Route path="/">
             <Home />
         </Route>
-        <Route from="/about">
+        <Route path="/about">
             <About />
         </Route>
-        <Route from="/shapes">
+        <Route path="/shapes">
             <ThreeD />
         </Route>
-        <Route from="/sign-in">
+        <Route path="/sign-in">
             <SignIn />
         </Route>
         </BrowserRouter>
