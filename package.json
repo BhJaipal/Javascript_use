@@ -3,6 +3,9 @@
     "document": "^0.4.7",
     "react": "^18.2.0",
     "vscode": "^1.1.37",
-    "window": "^4.2.7"
+    "window": "^4.2.7",
+    "react-router-dom": "^6.10.0",
+    "react-router": "^6.9.0",
+    "mysql": "5.5.23"
   }
 }
