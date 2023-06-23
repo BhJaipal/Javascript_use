@@ -42,7 +42,7 @@ export default function SignIn() {
                 </div>
                 <div className="form-check text-start my-3">
                     <Input:checkbox className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" />
-                        <Label className="form-check-Label" for="flexCheckDefault">
+                        <Label className="form-check-Label" htmlfor="flexCheckDefault">
                             Remember me
                         </Label>
                 </div>
