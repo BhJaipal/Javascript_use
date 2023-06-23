@@ -33,7 +33,7 @@ export default function SignIn() {
                     <Label htmlFor="floatingInput">Name</Label>
                 </div>
                 <div className="form-floating">
-                    <Input: email className="form-control email" id="floatingInput" placeholder="name@example.com"></Input: email>
+                    <Input:email className="form-control email" id="floatingInput" placeholder="name@example.com"></Input: email>
                     <Label htmlFor="floatingInput">Email address</Label>
                 </div>
                 <div className="form-floating">
