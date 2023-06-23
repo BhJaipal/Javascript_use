@@ -29,7 +29,7 @@ export default function SignIn() {
             <Form className="data">
                 <h1 className="h3 mb-3 fw-normal">Please Sign In</h1>
                 <div className="form-floating">
-                    <Input:text className="form-control name" id="floatingInput" placeholder="name">
+                    <Input:text className="form-control name" id="floatingInput" placeholder="name" />
                     <Label htmlFor="floatingInput">Name</Label>
                 </div>
                 <div className="form-floating">
