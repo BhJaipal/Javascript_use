@@ -37,7 +37,7 @@ export default function SignIn() {
                     <Label htmlFor="floatingInput">Email address</Label>
                 </div>
                 <div className="form-floating">
-                    <Input:password className="form-control password" id="floatingPassword" placeholder="Password"></Input:password>
+                    <Input:password className="form-control password" id="floatingPassword" placeholder="Password">
                     <Label htmlFor="floatingPassword">Password</Label>
                 </div>
                 <div className="form-check text-start my-3">
