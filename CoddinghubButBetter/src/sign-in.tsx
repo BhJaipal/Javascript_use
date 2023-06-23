@@ -41,7 +41,7 @@ export default function SignIn() {
                     <Label htmlFor="floatingPassword">Password</Label>
                 </div>
                 <div className="form-check text-start my-3">
-                    <Input:ch className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" />
+                    <Input:check className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" />
                         <Label className="form-check-Label" for="flexCheckDefault">
                             Remember me
                         </Label>
