@@ -46,7 +46,7 @@ export default function SignIn() {
                             Remember me
                         </Label>
                 </div>
-                <Button: submit onClick={register} className="btn btn-primary w-100 py-2">Sign In</Button: submit>
+                <Button:submit onClick={register} className="btn btn-primary w-100 py-2">Sign In</Button: submit>
             </Form>
         </Main>
     );
