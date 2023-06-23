@@ -44,7 +44,7 @@ export default function SignIn() {
                     <Input:checkbox className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" />
                         <Label className="form-check-Label" for="flexCheckDefault">
                             Remember me
-                        </Label>Inpu
+                        </Label>Input
                 </div>
                 <Button: submit onClick={register} className="btn btn-primary w-100 py-2">Sign In</Button: submit>
             </Form>
