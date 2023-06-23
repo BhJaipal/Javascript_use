@@ -220,7 +220,7 @@ export default ThreeD = {
   },
 
   /**
-   * {@linkcode Cone}
+   * @linkcode Cone}
    */
   Cone: class implements Shape {
     /**
