@@ -29,13 +29,32 @@
 
 **I created this repo as if I want select a design for a website in my choice**
 
-Arrow function Syntax
-```js
-// on list 
-list.forEach((arguments) => {yourFunction});
-// user defined 
-let fun= (arguments) => {yourFunction};
+TypeScript: 
+```ts
+class human{
+ constructor(public name: string) {}
+ eat(): void{
+  console.log(this.name + " is eating food");
+ }
+};
 ```
-`Hello entered_name`
+Converted JS by tsc 
+```js
+const human= /** @class */ (function() {
+ /**
+ * @param {string} name
+ */
+ function human(name) {
+  this.name= name;
+ }
+ /** 
+ * returns {void}
+ */
+ human.prototype.eat= function() {
+  console.log(this.name +" is eating food");
+ };
+ return human;
+}());
+```
 
 This repo will contain html, javascript and css files
