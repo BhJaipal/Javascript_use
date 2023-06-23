@@ -48,7 +48,7 @@ const human= /** @class */ (function() {
   this.name= name;
  }
  /** 
- * returns {void}
+ * @returns {void}
  */
  human.prototype.eat= function() {
   console.log(this.name +" is eating food");
