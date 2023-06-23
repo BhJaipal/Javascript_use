@@ -1,3 +1,3 @@
 import * as React from "react";
 import $ from "./jquery.js";
-import "./s"
+import "./sig"
