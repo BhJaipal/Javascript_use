@@ -77,5 +77,6 @@
     },
     "javascript.autoClosingTags": true,
     "html.autoClosingTags": true,
-    "typescript.autoClosingTags": true
+    "typescript.autoClosingTags": true,
+    "tag"
 }
