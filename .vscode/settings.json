@@ -75,5 +75,5 @@
         "javascript.preferences.jsxAttributeCompletionStyle": "auto",
         "typescript.preferences.jsxAttributeCompletionStyle": "auto"
     },
-    "tag"
+    "javascript.autoClosingTags": true
 }
