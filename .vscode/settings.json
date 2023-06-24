@@ -64,5 +64,6 @@
         "vue-router": "4.0.8",
         "typescript": "5.1"
     }
-    "javascript.suggest.autoImports": true
+    "javascript.suggest.autoImports": true,
+    ""
 }
