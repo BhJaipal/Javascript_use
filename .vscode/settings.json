@@ -79,5 +79,5 @@
     "html.autoClosingTags": true,
     "typescript.autoClosingTags": true,
     "javascript.suggest.completeJSDocs": true,
-    "ts.su"
+    "typescript.suggest.completeJSDocs": true
 }
