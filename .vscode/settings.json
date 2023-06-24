@@ -70,7 +70,7 @@
     "typescript.suggest.paths": true,
     "[jsx-tags]": {
         "javascript.autoClosingTags": true,
-        "jav"
+        ""
         "javascript.preferences.jsxAttributeCompletionStyle": "auto",
         "typescript.preferences.jsxAttributeCompletionStyle": "auto"
     }
