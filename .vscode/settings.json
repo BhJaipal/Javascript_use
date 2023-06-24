@@ -69,7 +69,7 @@
     "javascript.suggest.names": true,
     "typescript.suggest.paths": true,
     "[jsx-tags]": {
-        ""
+        "javascript.preferences.jsxAttributeCompletionStyle": ,
         "typescript.preferences.jsxAttributeCompletionStyle": "auto"
     }
 }
