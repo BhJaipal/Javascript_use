@@ -80,5 +80,5 @@
     "typescript.autoClosingTags": true,
     "javascript.suggest.completeJSDocs": true,
     "typescript.suggest.completeJSDocs": true,
-    "ts.imp"
+    "typescript.suggest.autoImports": true
 }
