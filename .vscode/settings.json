@@ -81,5 +81,4 @@
     "javascript.suggest.completeJSDocs": true,
     "typescript.suggest.completeJSDocs": true,
     "typescript.suggest.autoImports": true,
-    "updtag"
 }
