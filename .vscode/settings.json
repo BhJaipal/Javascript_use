@@ -66,5 +66,5 @@
     },
     "javascript.suggest.autoImports": true,
     "javascript.suggest.paths": true,
-    ""
+    "javascript.suggest.names": true
 }
