@@ -18,10 +18,7 @@ export default ThreeD = {
       this.brea = breadth;
       this.heig = height;
     }
-    /**
-     * @returns {number}
-     */
-    TotalSurfaceArea() {
+    TotalSurfaceArea(): number {
       return 2 * (this.len * this.brea + this.brea * this.heig + this.len * this.heig);
       // Total Surface area of Cuboid = 
       2 * (l * b + b * h + l * h)
@@ -220,7 +217,7 @@ export default ThreeD = {
   },
 
   /**
-   * @linkcode Cone}
+   * @linkcode
    */
   Cone: class implements Shape {
     /**
