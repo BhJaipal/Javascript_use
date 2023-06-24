@@ -74,5 +74,6 @@
         "typescript.suggest.completeJSDocs": true,
         "javascript.preferences.jsxAttributeCompletionStyle": "auto",
         "typescript.preferences.jsxAttributeCompletionStyle": "auto"
-    }
+    },
+    ""
 }
