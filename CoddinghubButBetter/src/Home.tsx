@@ -10,10 +10,6 @@ export default function Home() {
             <div>
               
             </div>
-          )
-        }
-        
-        export d
         
     )
 }
