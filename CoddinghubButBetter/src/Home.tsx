@@ -3,6 +3,8 @@ import React from 'react';
 
 export default function Home() {
     return(
-        rfrag
+        <React.Fragments>
+            
+        </React.Fragments>
     )
 }
