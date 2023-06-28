@@ -40,13 +40,6 @@ export default function App() {
         </BrowserRouter>
     )
 }
-function Home() {
-    return (
-        <div>
-            <h3>Hello</h3>
-        </div>
-    )
-}
 function About() {
     return (
         <div className="about">
