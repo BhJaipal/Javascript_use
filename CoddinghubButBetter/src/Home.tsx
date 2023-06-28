@@ -1,1 +1,1 @@
-import $ from "./jquery.jsx"
+import $ from "./jquery.js"
