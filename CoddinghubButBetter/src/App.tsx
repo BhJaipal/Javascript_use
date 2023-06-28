@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ThreeD from "./3d_html.jsx";
 import SignIn from "./sign-in.jsx";
-import Home from "./Home.js";
+import Home from "./Home.jsx";
 
 export default function App() {
     return (
