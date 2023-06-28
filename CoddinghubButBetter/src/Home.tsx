@@ -5,7 +5,7 @@ export default function Home() {
     return(
         import React from 'react'
         
-        const Home = () => {
+     = () => {
           return (
             <div>
               
@@ -13,7 +13,7 @@ export default function Home() {
           )
         }
         
-        export default Home
+        export d
         
     )
 }
