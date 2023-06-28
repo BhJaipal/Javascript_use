@@ -1,1 +1,1 @@
-import $ from "./jquery.js"
+import $ from "./jquery.js";
