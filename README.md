@@ -8,7 +8,7 @@
   
 
 [![Visual Studio Code](https://img.shields.io/badge/V_S_Code-007ACC?logo=visual%20studio%20code&logoColor=3f3f8f)](https://code.visualstudio.com) 
-[![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/) 
+[![JavaScript](https://img.shields.io/badge/JavaScript-FFF?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/) 
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label&color=black)](https://github.com) 
 [![GitHub stars](https://img.shields.io/github/stars/BhJaipal/Javascript_use.svg?style=social&label=Star&maxAge=2592000)](https://github.com/BhJaipal/Javascript_use)
 [![TypeScript](https://img.shields.io/badge/TypeScript-FFFFFF?logo=typescript&logoColor=0000ff)](https://typescriptlang.org)
