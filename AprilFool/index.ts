@@ -1,10 +1,7 @@
-import Window from "window";
-import Document from "document";
-
-let btn= Document.getElementById('subBtn');
+let btn= document.getElementById('subBtn');
 btn.addEventListener("click", function() {
-    Window.alert("Hello "+ document.getElementById("nameBox").value);
+    window.alert("Hello "+ document.getElementById("nameBox").value);
     while (true) {
-        Window.alert("April Fool");
+        window.alert("April Fool");
     }
 })
