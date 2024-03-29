@@ -1,0 +1,22 @@
+{
+	"name": "http-server",
+	"version": "1.0.0",
+	"module": "module",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon examples/index.js",
+		"watch": "tsc --watch",
+		"tsc": "tsc -d",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.11.30",
+		"typescript": "^5.4.3"
+	},
+	"dependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
